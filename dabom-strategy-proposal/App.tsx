@@ -19,6 +19,7 @@ import { Footer } from './components/sections/Footer';
 import { RitualLife } from './components/sections/RitualLife';
 
 import { Overview } from './components/sections/Overview';
+import BrandStory from './components/sections/BrandStory';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <main className="h-full w-full overflow-y-scroll scroll-smooth no-scrollbar">
         <Hero />
         <Overview />
+        <BrandStory />
 
         {/* Interim 1: Before Clinical Evidence */}
         <InterimSection
