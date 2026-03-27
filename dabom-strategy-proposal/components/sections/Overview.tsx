@@ -10,8 +10,8 @@ export const Overview: React.FC = () => {
             title: "핵심 기능 소개",
             desc: "전문가가 설계한\n멘탈 케어 솔루션",
             icon: "fa-user-doctor",
-            color: "text-blue-500",
-            bg: "bg-blue-50",
+            color: "text-yellow-600",
+            bg: "bg-yellow-50",
             id: "interim-1"
         },
         {
@@ -19,7 +19,7 @@ export const Overview: React.FC = () => {
             title: "핵심 전략",
             desc: "데이터 기반의\n능동적 개입",
             icon: "fa-chess-knight",
-            color: "text-indigo-500",
+            color: "text-amber-500",
             bg: "bg-indigo-50",
             id: "interim-2"
         },
@@ -51,11 +51,11 @@ export const Overview: React.FC = () => {
     };
 
     return (
-        <SectionWrapper id="overview" className="bg-slate-800" pageNumber={2}>
+        <SectionWrapper id="overview" className="bg-[#545045]" pageNumber={2}>
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center">
                 <div className="text-center mb-16">
                     <FadeIn>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-kb-yellow leading-tight">
                             Overview
                         </h2>
                     </FadeIn>
@@ -65,7 +65,7 @@ export const Overview: React.FC = () => {
                     {parts.map((item, index) => (
                         <FadeIn key={index} delay={index * 100}>
                             <GlassCard
-                                className="p-8 h-full flex flex-col items-center text-center cursor-pointer hover:border-monimo-blue/30 hover:shadow-lg transition-all group relative overflow-hidden"
+                                className="p-8 h-full flex flex-col items-center text-center cursor-pointer hover:border-kb-yellow/30 hover:shadow-lg transition-all group relative overflow-hidden"
                                 onClick={() => scrollToSection(item.id)}
                             >
                                 {/* Background Decor */}
@@ -73,7 +73,7 @@ export const Overview: React.FC = () => {
 
                                 <div className="mt-4">
                                     <span className="text-sm font-bold text-gray-400 mb-2 uppercase tracking-wider block">{item.part}</span>
-                                    <h3 className="text-xl font-extrabold text-monimo-black mb-4 group-hover:text-monimo-blue transition-colors">
+                                    <h3 className="text-xl font-extrabold text-kb-black mb-4 group-hover:text-kb-yellow transition-colors">
                                         {item.title}
                                     </h3>
 

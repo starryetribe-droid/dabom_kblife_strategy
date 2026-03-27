@@ -11,9 +11,9 @@ export const KeyPillars: React.FC = () => {
       desc: "데이터 기반으로 이상징후 감지 시\n즉각 개입하여 선제적으로 서비스 제공",
       keyPoint: "사용자 탐색 과정 없는 능동적 개입",
       icon: "fa-hand-holding-heart",
-      color: "from-blue-400 to-blue-600",
-      bgAccent: "bg-blue-50",
-      textAccent: "text-blue-600"
+      color: "from-yellow-500 to-yellow-500",
+      bgAccent: "bg-yellow-50",
+      textAccent: "text-yellow-600"
     },
     {
       id: "02",
@@ -40,13 +40,13 @@ export const KeyPillars: React.FC = () => {
   ];
 
   return (
-    <SectionWrapper id="key-pillars" className="bg-monimo-bg" pageNumber={9}>
+    <SectionWrapper id="key-pillars" className="bg-kb-bg" pageNumber={9}>
       <div className="max-w-7xl mx-auto px-6 w-full">
         <div className="text-center mb-12">
           <FadeIn>
-            <span className="text-monimo-blue font-bold tracking-wider text-[15px] uppercase mb-2 block">Core Strategy</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-monimo-black">핵심 전략</h2>
-            <p className="text-monimo-gray font-medium text-lg md:text-xl">고객 경험 개선을 위한 3단계 접근법</p>
+            <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">Core Strategy</span>
+            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-kb-black">핵심 전략</h2>
+            <p className="text-kb-gray font-medium text-lg md:text-xl">고객 경험 개선을 위한 3단계 접근법</p>
           </FadeIn>
         </div>
 
@@ -72,13 +72,13 @@ export const KeyPillars: React.FC = () => {
                     <span className={`inline-block px-4 py-1.5 rounded-full text-[15px] font-bold ${pillar.bgAccent} ${pillar.textAccent} mb-3 shadow-sm`}>
                       {pillar.engTitle}
                     </span>
-                    <h3 className="text-2xl font-extrabold text-monimo-black leading-tight break-keep">
+                    <h3 className="text-2xl font-extrabold text-kb-black leading-tight break-keep">
                       {pillar.title}
                     </h3>
                   </div>
 
                   {/* Description */}
-                  <p className="text-monimo-gray text-[16px] md:text-lg leading-relaxed mb-8 break-keep whitespace-pre-line font-medium">
+                  <p className="text-kb-gray text-[16px] md:text-lg leading-relaxed mb-8 break-keep whitespace-pre-line font-medium">
                     {pillar.desc}
                   </p>
 
@@ -88,7 +88,7 @@ export const KeyPillars: React.FC = () => {
                       <div className={`w-7 h-7 rounded-full ${pillar.bgAccent} flex items-center justify-center ${pillar.textAccent} shrink-0 shadow-sm`}>
                         <i className="fa-solid fa-check text-xs"></i>
                       </div>
-                      <p className="text-monimo-black font-extrabold text-[15px] md:text-[16px] leading-tight break-keep">
+                      <p className="text-kb-black font-extrabold text-[15px] md:text-[16px] leading-tight break-keep">
                         {pillar.keyPoint}
                       </p>
                     </div>

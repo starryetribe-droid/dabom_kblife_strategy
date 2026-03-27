@@ -12,8 +12,8 @@ export const DigitalDetox: React.FC = () => {
                             <i className="fa-solid fa-triangle-exclamation mr-2"></i>
                             2024년 스마트폰 과의존 위험군 22.9% 기록
                         </span>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-monimo-black leading-tight mb-4">
-                            <span className="text-blue-600">디지털 디톡스</span> 퀘스트
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-kb-black leading-tight mb-4">
+                            <span className="text-yellow-600">디지털 디톡스</span> 퀘스트
                         </h2>
                         <p className="text-gray-500 text-[18px] max-w-2xl mx-auto word-keep">
                             '하지 마라'는 규제가 아닌 <span className="font-bold text-gray-800">보상(LP판)</span>을 통한 자발적 참여를 유도하며<br />
@@ -142,7 +142,7 @@ export const DigitalDetox: React.FC = () => {
                                             {/* Stars */}
                                             <div className="absolute top-[10%] left-[20%] w-1 h-1 bg-yellow-200 rounded-full animate-pulse"></div>
                                             <div className="absolute top-[30%] right-[20%] w-1.5 h-1.5 bg-white rounded-full animate-pulse delay-75"></div>
-                                            <div className="absolute bottom-[40%] left-[15%] w-1 h-1 bg-blue-200 rounded-full animate-pulse delay-150"></div>
+                                            <div className="absolute bottom-[40%] left-[15%] w-1 h-1 bg-yellow-200 rounded-full animate-pulse delay-150"></div>
                                             <div className="absolute bottom-[20%] right-[30%] w-2 h-2 bg-yellow-100 rounded-full blur-[1px]"></div>
 
                                             {/* Bed/Sleep Icon Abstract */}
@@ -192,9 +192,9 @@ export const DigitalDetox: React.FC = () => {
                 <FadeIn delay={600} className="w-full text-center mt-4">
                     <h3 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight word-keep">
                         '수면 시작 - 기상' 루틴을 앱과 함께하며<br />
-                        <span className="text-blue-600 relative inline-block mt-2">
+                        <span className="text-yellow-600 relative inline-block mt-2">
                             DAU 및 체류 시간 확보
-                            <span className="absolute bottom-1 left-0 w-full h-3 bg-blue-100 -z-10 bg-opacity-60"></span>
+                            <span className="absolute bottom-1 left-0 w-full h-3 bg-yellow-100 -z-10 bg-opacity-60"></span>
                         </span>
                     </h3>
                 </FadeIn>

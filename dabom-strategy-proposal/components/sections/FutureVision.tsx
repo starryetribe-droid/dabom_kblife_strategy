@@ -4,7 +4,7 @@ import { SectionWrapper } from './SectionWrapper';
 
 export const FutureVision: React.FC = () => {
     return (
-        <SectionWrapper id="future-vision" className="bg-monimo-bg overflow-hidden relative" pageNumber={26}>
+        <SectionWrapper id="future-vision" className="bg-kb-bg overflow-hidden relative" pageNumber={26}>
             {/* Background Decor - Nature/Warm theme */}
             <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute top-[-10%] left-[-10%] w-[60%] h-[60%] bg-orange-100/40 rounded-full blur-[100px]"></div>
@@ -16,12 +16,12 @@ export const FutureVision: React.FC = () => {
                 <div className="flex-1 text-center md:text-left order-2 md:order-1">
                     <FadeIn>
                         <span className="text-orange-500 font-bold tracking-wider text-sm uppercase mb-2 block">Next Generation AI 다봄</span>
-                        <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight text-monimo-black">
+                        <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight text-kb-black">
                             목소리로 교감하는<br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-500">Speech-to-Speech</span><br />
                             시니어 리빙 메이트, 다봄
                         </h2>
-                        <p className="text-monimo-gray text-lg leading-relaxed mb-8 break-keep">
+                        <p className="text-kb-gray text-lg leading-relaxed mb-8 break-keep">
                             마치 숲속에서 친구와 산책하듯,<br />
                             <strong>실시간 음성 대화</strong>로 마음을 나누세요.<br />
                             딱딱한 텍스트가 아닌, 따뜻한 목소리로 위로합니다.
@@ -33,7 +33,7 @@ export const FutureVision: React.FC = () => {
                                     <i className="fa-solid fa-microphone-lines"></i>
                                 </div>
                                 <div className="text-left">
-                                    <span className="block font-bold text-monimo-black">Real-time Voice</span>
+                                    <span className="block font-bold text-kb-black">Real-time Voice</span>
                                     <span className="text-xs text-gray-500">지연 없는 실시간 대화</span>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ export const FutureVision: React.FC = () => {
                                     <i className="fa-solid fa-leaf"></i>
                                 </div>
                                 <div className="text-left">
-                                    <span className="block font-bold text-monimo-black">Cozy Healing</span>
+                                    <span className="block font-bold text-kb-black">Cozy Healing</span>
                                     <span className="text-xs text-gray-500">편안한 힐링 인터페이스</span>
                                 </div>
                             </div>

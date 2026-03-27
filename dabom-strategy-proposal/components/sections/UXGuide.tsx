@@ -10,12 +10,12 @@ export const UXGuide: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <FadeIn>
-            <span className="text-monimo-blue font-bold tracking-wider text-[15px] uppercase mb-2 block">Inclusive Design</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-monimo-black leading-tight">
-              시니어 RESPECT <span className="text-monimo-blue">UX/UI 가이드</span>
+            <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">Inclusive Design</span>
+            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-kb-black leading-tight">
+              시니어 RESPECT <span className="text-kb-yellow">UX/UI 가이드</span>
             </h2>
-            <p className="text-monimo-gray max-w-3xl mx-auto font-medium text-lg md:text-xl break-keep">
-              신체적 노화와 심리적 장벽을 허무는 <span className="text-monimo-black font-bold">시니어 최적화 설계</span>
+            <p className="text-kb-gray max-w-3xl mx-auto font-medium text-lg md:text-xl break-keep">
+              신체적 노화와 심리적 장벽을 허무는 <span className="text-kb-black font-bold">시니어 최적화 설계</span>
             </p>
           </FadeIn>
         </div>
@@ -32,9 +32,9 @@ export const UXGuide: React.FC = () => {
                 <div className="w-16 h-16 rounded-2xl bg-orange-100 text-orange-600 flex items-center justify-center text-3xl mb-4 shadow-sm">
                   <i className="fa-solid fa-glasses"></i>
                 </div>
-                <h3 className="text-xl font-bold text-monimo-black mb-2">1. Visual & Physical</h3>
+                <h3 className="text-xl font-bold text-kb-black mb-2">1. Visual & Physical</h3>
                 <p className="text-[16px] font-bold text-orange-500 mb-3">신체적 접근성: "잘 보이고 잘 눌러지게"</p>
-                <p className="text-[16px] text-monimo-gray leading-relaxed break-keep font-medium">
+                <p className="text-[16px] text-kb-gray leading-relaxed break-keep font-medium">
                   노화로 인한 시각 저하(황변 현상)와 소근육 운동 능력 저하를 보완합니다.
                 </p>
               </div>
@@ -44,10 +44,10 @@ export const UXGuide: React.FC = () => {
                 {/* Color Concept */}
                 <div className="flex items-center justify-center gap-6 mb-6">
                   <div className="flex flex-col items-center">
-                    <div className="w-14 h-14 rounded-full bg-blue-500 relative flex items-center justify-center shadow-sm ring-2 ring-blue-100">
+                    <div className="w-14 h-14 rounded-full bg-yellow-500 relative flex items-center justify-center shadow-sm ring-2 ring-yellow-100">
                       <i className="fa-solid fa-ban text-white/70 text-xl"></i>
                     </div>
-                    <span className="text-[15px] text-blue-600 font-bold mt-2">Blue (황변시 식별↓)</span>
+                    <span className="text-[15px] text-yellow-600 font-bold mt-2">Blue (황변시 식별↓)</span>
                   </div>
 
                   <i className="fa-solid fa-arrow-right text-gray-300 text-base"></i>
@@ -64,7 +64,7 @@ export const UXGuide: React.FC = () => {
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-xl border border-gray-200 shadow-sm flex items-center justify-between">
                     <span className="text-[18px] font-bold text-gray-900">본문 18px</span>
-                    <span className="text-[15px] text-monimo-blue bg-blue-50 px-3 py-1 rounded text-center font-bold">기본 크기</span>
+                    <span className="text-[15px] text-kb-yellow bg-yellow-50 px-3 py-1 rounded text-center font-bold">기본 크기</span>
                   </div>
                   <button className="w-full bg-[#FF7E00] text-white rounded-xl h-[52px] flex items-center justify-center font-bold text-lg shadow-md active:scale-95 transition-transform">
                     높이 48px+ 터치 영역
@@ -85,9 +85,9 @@ export const UXGuide: React.FC = () => {
                 <div className="w-16 h-16 rounded-2xl bg-green-100 text-green-600 flex items-center justify-center text-3xl mb-4 shadow-sm">
                   <i className="fa-solid fa-road"></i>
                 </div>
-                <h3 className="text-xl font-bold text-monimo-black mb-2">2. Cognitive Simplicity</h3>
+                <h3 className="text-xl font-bold text-kb-black mb-2">2. Cognitive Simplicity</h3>
                 <p className="text-[16px] font-bold text-green-600 mb-3">인지적 편의성: "직관적이고 단순하게"</p>
-                <p className="text-[16px] text-monimo-gray leading-relaxed break-keep font-medium">
+                <p className="text-[16px] text-kb-gray leading-relaxed break-keep font-medium">
                   디지털 기기 조작 두려움을 없애고, 학습 없이 바로 사용할 수 있게 합니다.
                 </p>
               </div>
@@ -144,9 +144,9 @@ export const UXGuide: React.FC = () => {
                 <div className="w-16 h-16 rounded-2xl bg-pink-100 text-pink-500 flex items-center justify-center text-3xl mb-4 shadow-sm">
                   <i className="fa-solid fa-hand-holding-heart"></i>
                 </div>
-                <h3 className="text-xl font-bold text-monimo-black mb-2">3. Psychological Care</h3>
+                <h3 className="text-xl font-bold text-kb-black mb-2">3. Psychological Care</h3>
                 <p className="text-[16px] font-bold text-pink-500 mb-3">심리적 케어: "편안하고 따뜻하게"</p>
-                <p className="text-[16px] text-monimo-gray leading-relaxed break-keep font-medium">
+                <p className="text-[16px] text-kb-gray leading-relaxed break-keep font-medium">
                   기술 장벽과 정신건강 서비스 이용에 대한 심리적 저항감을 낮춥니다.
                 </p>
               </div>
@@ -161,8 +161,8 @@ export const UXGuide: React.FC = () => {
                     </div>
                     <span className="text-[15px] font-bold text-gray-700">말하기</span>
                   </div>
-                  <div className="flex-1 bg-white p-3 rounded-xl border border-gray-200 shadow-sm flex flex-col items-center gap-2 hover:border-blue-200 transition-colors cursor-pointer">
-                    <div className="w-10 h-10 rounded-full bg-blue-50 text-monimo-blue flex items-center justify-center">
+                  <div className="flex-1 bg-white p-3 rounded-xl border border-gray-200 shadow-sm flex flex-col items-center gap-2 hover:border-yellow-200 transition-colors cursor-pointer">
+                    <div className="w-10 h-10 rounded-full bg-yellow-50 text-kb-yellow flex items-center justify-center">
                       <i className="fa-solid fa-volume-high text-lg"></i>
                     </div>
                     <span className="text-[15px] font-bold text-gray-700">듣기</span>

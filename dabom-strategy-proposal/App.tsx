@@ -3,14 +3,11 @@ import { Navbar } from './components/Navigation';
 
 import { Expertise } from './components/sections/Expertise';
 import { Hero } from './components/sections/Hero';
-import { B2BPivot } from './components/sections/B2BPivot';
 import { InterimSection } from './components/sections/InterimSection';
 
 import { CoreService } from './components/sections/CoreService';
 import { KeyPillars } from './components/sections/KeyPillars';
 
-import { StrategyOne } from './components/sections/StrategyOne';
-import { StrategyTwo } from './components/sections/StrategyTwo';
 import { StrategyThree } from './components/sections/StrategyThree';
 import { Scenarios } from './components/sections/Scenarios';
 import { DabomTCareIndex } from './components/sections/DabomTCareIndex';
@@ -19,17 +16,13 @@ import { MentalHealthCheckup } from './components/sections/MentalHealthCheckup';
 import { BrainFitness } from './components/sections/BrainFitness';
 
 import { Footer } from './components/sections/Footer';
-import { ConceptPivot } from './components/sections/ConceptPivot';
-import { Gamification } from './components/sections/Gamification';
-import { DigitalDetox } from './components/sections/DigitalDetox';
 import { RitualLife } from './components/sections/RitualLife';
-import { RoutineScenarios } from './components/sections/RoutineScenarios';
 
 import { Overview } from './components/sections/Overview';
 
 function App() {
   return (
-    <div className="relative h-screen w-full bg-monimo-bg text-monimo-black font-sans overflow-hidden">
+    <div className="relative h-screen w-full bg-kb-bg text-kb-black font-sans overflow-hidden">
       <Navbar />
 
       <main className="h-full w-full overflow-y-scroll scroll-smooth no-scrollbar">
@@ -61,36 +54,9 @@ function App() {
         />
         <KeyPillars />
         <CoreService />
-        <StrategyOne />
-        <StrategyTwo />
         <StrategyThree />
         <Scenarios />
         <DabomTCareIndex />
-
-        {/* Interim 3: Before B2B Pivot */}
-        <InterimSection
-          id="interim-3"
-          title="B2B 전략의 전환:\n보편적 웰니스"
-          description="고위험군 선별이 아닌, 전 임직원이 즐기는\n일상 속 멘탈케어로 확장합니다."
-          pageNumber={16}
-          theme="blue"
-          label="Part 3"
-        />
-        <B2BPivot />
-        <RoutineScenarios />
-
-        {/* Interim 4: Before Concept Pivot */}
-        <InterimSection
-          id="interim-4"
-          title="Concept Pivot:\n즐거운 몰입"
-          description="지루한 훈련을 아닌, 게임처럼 즐겁고\n리추얼처럼 지속 가능한 경험을 설계합니다."
-          pageNumber={19}
-          theme="blue"
-          label="Part 4"
-        />
-        <ConceptPivot />
-        <Gamification />
-        <DigitalDetox />
         <RitualLife />
         <Footer />
       </main>

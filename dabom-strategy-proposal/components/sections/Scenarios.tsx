@@ -13,26 +13,26 @@ interface ScenarioCardProps {
 }
 
 const ScenarioCard: React.FC<ScenarioCardProps> = ({ icon, iconColor, title, asIs, toBe, aiMessage }) => (
-  <GlassCard hoverEffect className="p-8 rounded-[2rem] flex flex-col h-full hover:bg-blue-50/30 transition border border-transparent hover:border-monimo-blue/20">
+  <GlassCard hoverEffect className="p-8 rounded-[2rem] flex flex-col h-full hover:bg-yellow-50/30 transition border border-transparent hover:border-kb-yellow/20">
     <div className="flex items-center mb-6">
       <div className={`w-12 h-12 rounded-2xl ${iconColor} flex items-center justify-center mr-4 text-xl shadow-sm`}>
         <i className={icon}></i>
       </div>
-      <h3 className="font-bold text-xl text-monimo-black">{title}</h3>
+      <h3 className="font-bold text-xl text-kb-black">{title}</h3>
     </div>
     <div className="mb-8 text-[15px] space-y-4 flex-grow">
       <div className="flex items-start bg-gray-50 p-3 rounded-xl">
         <span className="text-gray-400 font-bold w-14 shrink-0 text-sm mt-0.5">AS-IS</span>
         <span className="text-gray-500 font-medium leading-relaxed">{asIs}</span>
       </div>
-      <div className="flex items-start bg-blue-50 p-3 rounded-xl">
-        <span className="text-monimo-blue font-bold w-14 shrink-0 text-sm mt-0.5">TO-BE</span>
-        <span className="text-monimo-black font-medium leading-relaxed">{toBe}</span>
+      <div className="flex items-start bg-yellow-50 p-3 rounded-xl">
+        <span className="text-kb-yellow font-bold w-14 shrink-0 text-sm mt-0.5">TO-BE</span>
+        <span className="text-kb-black font-medium leading-relaxed">{toBe}</span>
       </div>
     </div>
     <div className="bg-white p-5 rounded-2xl border border-gray-200 shadow-soft relative mt-auto">
-      <div className="absolute -top-3 left-4 bg-monimo-blue text-sm font-bold text-white px-3 py-1 rounded-full shadow-sm">AI 다봄</div>
-      <p className="text-[15px] text-monimo-black font-medium leading-relaxed">"{aiMessage}"</p>
+      <div className="absolute -top-3 left-4 bg-kb-yellow text-sm font-bold text-white px-3 py-1 rounded-full shadow-sm">AI 다봄</div>
+      <p className="text-[15px] text-kb-black font-medium leading-relaxed">"{aiMessage}"</p>
     </div>
   </GlassCard>
 );
@@ -43,9 +43,9 @@ export const Scenarios: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 w-full">
         <div className="text-center mb-12">
           <FadeIn>
-            <span className="text-monimo-blue font-bold tracking-wider text-sm uppercase mb-2 block">Scenarios</span>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-monimo-black">유저 시나리오</h2>
-            <p className="text-monimo-gray mt-3 font-medium text-base md:text-lg">Physical x Mental 데이터 결합 사례</p>
+            <span className="text-kb-yellow font-bold tracking-wider text-sm uppercase mb-2 block">Scenarios</span>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-kb-black">유저 시나리오</h2>
+            <p className="text-kb-gray mt-3 font-medium text-base md:text-lg">Physical x Mental 데이터 결합 사례</p>
           </FadeIn>
         </div>
 
@@ -53,7 +53,7 @@ export const Scenarios: React.FC = () => {
           <FadeIn delay={100} className="h-full">
             <ScenarioCard
               icon="fa-solid fa-shoe-prints"
-              iconColor="bg-blue-100 text-monimo-blue"
+              iconColor="bg-yellow-100 text-kb-yellow"
               title="활동량(걸음 수, 영상운동 등) 급감"
               asIs='"오늘 걸음 수가 부족해요. 더 움직여보세요." (단순 독려)'
               toBe={<span>활동 데이터 급감을 '마음의 무기력'으로 의심하고 접근</span>}
@@ -63,7 +63,7 @@ export const Scenarios: React.FC = () => {
           <FadeIn delay={200} className="h-full">
             <ScenarioCard
               icon="fa-solid fa-moon"
-              iconColor="bg-indigo-100 text-indigo-500"
+              iconColor="bg-amber-100 text-amber-500"
               title="불규칙한 수면 패턴 3일 이상 지속"
               asIs='"수면 패턴 분석 결과 제공'
               toBe={<span>'3일 연속' 불규칙 패턴 감지 시, 우울·불안감 개선을 위해 대화 시도</span>}

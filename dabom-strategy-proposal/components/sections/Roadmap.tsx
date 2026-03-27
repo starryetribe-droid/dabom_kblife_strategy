@@ -14,7 +14,7 @@ export const Roadmap: React.FC = () => {
         "기본 멘탈 케어 콘텐츠(명상, 사운드) 라이브러리 연동"
       ],
       icon: "fa-robot",
-      color: "bg-monimo-blue"
+      color: "bg-kb-yellow"
     },
     {
       phase: "Phase 2. 연결 및 확장 (Integration)",
@@ -47,9 +47,9 @@ export const Roadmap: React.FC = () => {
       <div className="max-w-[1440px] mx-auto px-6 w-full">
         <FadeIn>
           <div className="text-center mb-16">
-            <span className="text-monimo-blue font-bold tracking-wider text-[15px] uppercase mb-2 block">Roadmap</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-monimo-black">추진 로드맵</h2>
-            <p className="text-monimo-gray font-medium text-lg md:text-xl">AI 멘탈케어 서비스 고도화 계획</p>
+            <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">Roadmap</span>
+            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-kb-black">추진 로드맵</h2>
+            <p className="text-kb-gray font-medium text-lg md:text-xl">AI 멘탈케어 서비스 고도화 계획</p>
           </div>
         </FadeIn>
 
@@ -77,14 +77,14 @@ export const Roadmap: React.FC = () => {
                     <div className={`hidden md:block absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-white border-t border-r border-gray-100 rotate-45 ${index % 2 === 0 ? '-right-2.5 border-l-0 border-b-0' : '-left-2.5 border-t-0 border-r-0 border-l border-b'}`}></div>
 
                     <div className={`flex flex-col gap-2 mb-4 ${index % 2 === 0 ? 'md:items-end' : 'md:items-start'}`}>
-                      <span className="text-[16px] font-bold text-monimo-blue uppercase tracking-wide">{step.phase}</span>
+                      <span className="text-[16px] font-bold text-kb-yellow uppercase tracking-wide">{step.phase}</span>
                     </div>
 
-                    <h3 className="text-2xl md:text-3xl font-bold text-monimo-black mb-3 leading-tight break-keep">
+                    <h3 className="text-2xl md:text-3xl font-bold text-kb-black mb-3 leading-tight break-keep">
                       {step.title}
                     </h3>
 
-                    <p className="text-monimo-gray text-[16px] md:text-[17px] font-medium leading-relaxed mb-6 break-keep">
+                    <p className="text-kb-gray text-[16px] md:text-[17px] font-medium leading-relaxed mb-6 break-keep">
                       {step.desc}
                     </p>
 

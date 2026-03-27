@@ -8,7 +8,7 @@ export const ServiceArchitecture: React.FC = () => {
     <SectionWrapper id="service-architecture" className="bg-[#F8F9FB] relative overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none opacity-40">
-        <div className="absolute top-[-10%] left-[-5%] w-[40%] h-[40%] bg-blue-100 rounded-full blur-[120px]"></div>
+        <div className="absolute top-[-10%] left-[-5%] w-[40%] h-[40%] bg-yellow-100 rounded-full blur-[120px]"></div>
         <div className="absolute bottom-[-10%] right-[-5%] w-[40%] h-[40%] bg-purple-100 rounded-full blur-[120px]"></div>
       </div>
 
@@ -16,11 +16,11 @@ export const ServiceArchitecture: React.FC = () => {
         {/* Header Section */}
         <div className="text-center mb-16">
           <FadeIn>
-            <span className="text-monimo-blue font-bold tracking-wider text-[15px] uppercase mb-2 block">Technology & Value</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-monimo-black leading-tight">
-              AI 기술이 만드는 <span className="text-monimo-blue">정교한 케어</span>와 <span className="text-monimo-blue">데이터 가치</span>
+            <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">Technology & Value</span>
+            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-kb-black leading-tight">
+              AI 기술이 만드는 <span className="text-kb-yellow">정교한 케어</span>와 <span className="text-kb-yellow">데이터 가치</span>
             </h2>
-            <p className="text-monimo-gray font-medium text-[16px] md:text-lg max-w-3xl mx-auto break-keep">
+            <p className="text-kb-gray font-medium text-[16px] md:text-lg max-w-3xl mx-auto break-keep">
               단순 대화를 넘어 사용자의 기억을 정량적으로 평가하는 독자적인 하이브리드 엔진 구조를 갖추고 있으며, 이를 통해 지속 가능한 비즈니스 생태계를 구축합니다.
             </p>
           </FadeIn>
@@ -31,12 +31,12 @@ export const ServiceArchitecture: React.FC = () => {
           <FadeIn delay={100} className="h-full">
             <GlassCard className="p-10 h-full flex flex-col border border-gray-100 shadow-soft relative overflow-hidden group">
               <div className="flex items-center gap-4 mb-8">
-                <div className="w-14 h-14 rounded-2xl bg-monimo-black text-white flex items-center justify-center text-2xl shadow-lg group-hover:scale-110 transition-transform">
+                <div className="w-14 h-14 rounded-2xl bg-kb-black text-white flex items-center justify-center text-2xl shadow-lg group-hover:scale-110 transition-transform">
                   <i className="fa-solid fa-layer-group"></i>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-monimo-black">AI 하이브리드 엔진 구조</h3>
-                  <p className="text-[15px] text-monimo-blue font-bold">자체 평가 모델 + 생성형 LLM 결합</p>
+                  <h3 className="text-2xl font-bold text-kb-black">AI 하이브리드 엔진 구조</h3>
+                  <p className="text-[15px] text-kb-yellow font-bold">자체 평가 모델 + 생성형 LLM 결합</p>
                 </div>
               </div>
 
@@ -45,7 +45,7 @@ export const ServiceArchitecture: React.FC = () => {
                 <div className="space-y-6">
                   {/* Step 1: Input */}
                   <div className="flex items-center gap-4">
-                    <div className="w-10 h-10 rounded-full bg-white border border-blue-100 text-monimo-blue flex items-center justify-center shadow-sm shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-white border border-yellow-100 text-kb-yellow flex items-center justify-center shadow-sm shrink-0">
                       <i className="fa-solid fa-comment-dots"></i>
                     </div>
                     <div className="flex-1 bg-white p-3 rounded-xl border border-gray-100 text-sm font-bold text-gray-700 shadow-sm">
@@ -59,16 +59,16 @@ export const ServiceArchitecture: React.FC = () => {
                   </div>
 
                   {/* Step 2: Evaluation (Core Logic) */}
-                  <div className="bg-monimo-blue/5 border-2 border-monimo-blue/20 rounded-2xl p-5 relative">
-                    <div className="absolute -top-3 left-4 bg-monimo-blue text-white text-[11px] font-black px-3 py-0.5 rounded-full uppercase">Proprietary Model</div>
+                  <div className="bg-kb-yellow/5 border-2 border-kb-yellow/20 rounded-2xl p-5 relative">
+                    <div className="absolute -top-3 left-4 bg-kb-yellow text-white text-[11px] font-black px-3 py-0.5 rounded-full uppercase">Proprietary Model</div>
                     <div className="flex flex-col gap-3">
-                      <div className="flex justify-between items-center bg-white p-3 rounded-xl shadow-sm border border-blue-50">
-                        <span className="text-sm font-bold text-monimo-black">기억 구체성 평가 (AMSS)</span>
-                        <span className="text-xs font-black text-monimo-blue">정량적 수치화</span>
+                      <div className="flex justify-between items-center bg-white p-3 rounded-xl shadow-sm border border-yellow-50">
+                        <span className="text-sm font-bold text-kb-black">기억 구체성 평가 (AMSS)</span>
+                        <span className="text-xs font-black text-kb-yellow">정량적 수치화</span>
                       </div>
-                      <div className="flex justify-between items-center bg-white p-3 rounded-xl shadow-sm border border-blue-50">
-                        <span className="text-sm font-bold text-monimo-black">정서 점수 도출</span>
-                        <span className="text-xs font-black text-monimo-blue">심리 지표 반영</span>
+                      <div className="flex justify-between items-center bg-white p-3 rounded-xl shadow-sm border border-yellow-50">
+                        <span className="text-sm font-bold text-kb-black">정서 점수 도출</span>
+                        <span className="text-xs font-black text-kb-yellow">심리 지표 반영</span>
                       </div>
                     </div>
                   </div>
@@ -80,7 +80,7 @@ export const ServiceArchitecture: React.FC = () => {
 
                   {/* Step 3: LLM Generation */}
                   <div className="flex items-center gap-4">
-                    <div className="w-10 h-10 rounded-full bg-monimo-black text-white flex items-center justify-center shadow-sm shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-kb-black text-white flex items-center justify-center shadow-sm shrink-0">
                       <i className="fa-solid fa-wand-magic-sparkles"></i>
                     </div>
                     <div className="flex-1 bg-white p-3 rounded-xl border border-gray-200 text-sm font-bold text-gray-700 shadow-sm">
@@ -90,8 +90,8 @@ export const ServiceArchitecture: React.FC = () => {
                 </div>
               </div>
 
-              <p className="text-[15px] text-monimo-gray font-medium leading-relaxed break-keep">
-                회상된 기억을 <span className="text-monimo-black font-bold">AMSS</span> 기준으로 분석하여 인지적/정서적 상태를 정밀하게 측정합니다.
+              <p className="text-[15px] text-kb-gray font-medium leading-relaxed break-keep">
+                회상된 기억을 <span className="text-kb-black font-bold">AMSS</span> 기준으로 분석하여 인지적/정서적 상태를 정밀하게 측정합니다.
               </p>
             </GlassCard>
           </FadeIn>
@@ -100,12 +100,12 @@ export const ServiceArchitecture: React.FC = () => {
           <FadeIn delay={200} className="h-full">
             <GlassCard className="p-10 h-full flex flex-col border border-gray-100 shadow-soft relative overflow-hidden group">
               <div className="flex items-center gap-4 mb-8">
-                <div className="w-14 h-14 rounded-2xl bg-monimo-blue text-white flex items-center justify-center text-2xl shadow-lg group-hover:scale-110 transition-transform">
+                <div className="w-14 h-14 rounded-2xl bg-kb-yellow text-white flex items-center justify-center text-2xl shadow-lg group-hover:scale-110 transition-transform">
                   <i className="fa-solid fa-chart-pie"></i>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-monimo-black">데이터 선순환 및 BM 확장</h3>
-                  <p className="text-[15px] text-monimo-blue font-bold">지속 가능한 비즈니스 임팩트</p>
+                  <h3 className="text-2xl font-bold text-kb-black">데이터 선순환 및 BM 확장</h3>
+                  <p className="text-[15px] text-kb-yellow font-bold">지속 가능한 비즈니스 임팩트</p>
                 </div>
               </div>
 
@@ -115,7 +115,7 @@ export const ServiceArchitecture: React.FC = () => {
                     title: "B2G: 지자체/보건소 연계",
                     desc: "지역 시니어 고위험군 상시 모니터링 및 복지 사각지대 해소",
                     icon: "fa-city",
-                    color: "bg-blue-50 text-monimo-blue"
+                    color: "bg-yellow-50 text-kb-yellow"
                   },
                   {
                     title: "B2B2C: 보험 및 금융 상품",
@@ -130,21 +130,21 @@ export const ServiceArchitecture: React.FC = () => {
                     color: "bg-green-50 text-green-600"
                   }
                 ].map((item, i) => (
-                  <div key={i} className="flex items-start gap-5 p-5 rounded-2xl bg-white border border-gray-100 shadow-sm hover:border-blue-200 transition-colors">
+                  <div key={i} className="flex items-start gap-5 p-5 rounded-2xl bg-white border border-gray-100 shadow-sm hover:border-yellow-200 transition-colors">
                     <div className={`w-12 h-12 rounded-xl ${item.color} flex items-center justify-center text-xl shrink-0 shadow-sm`}>
                       <i className={`fa-solid ${item.icon}`}></i>
                     </div>
                     <div>
-                      <h4 className="text-[17px] font-bold text-monimo-black mb-1">{item.title}</h4>
-                      <p className="text-[14px] text-monimo-gray font-medium leading-snug">{item.desc}</p>
+                      <h4 className="text-[17px] font-bold text-kb-black mb-1">{item.title}</h4>
+                      <p className="text-[14px] text-kb-gray font-medium leading-snug">{item.desc}</p>
                     </div>
                   </div>
                 ))}
               </div>
 
-              <div className="bg-monimo-black text-white p-5 rounded-2xl relative overflow-hidden">
+              <div className="bg-kb-black text-white p-5 rounded-2xl relative overflow-hidden">
                 <div className="relative z-10 flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-blue-400">
+                  <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-yellow-500">
                     <i className="fa-solid fa-arrows-spin text-2xl animate-spin-slow"></i>
                   </div>
                   <div>

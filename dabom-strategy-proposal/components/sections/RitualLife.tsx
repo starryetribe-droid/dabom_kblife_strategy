@@ -8,11 +8,11 @@ export const RitualLife: React.FC = () => {
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center items-center">
                 <FadeIn>
                     <div className="mb-12 text-center">
-                        <span className="block text-blue-500 font-bold mb-2">SYNERGY</span>
+                        <span className="block text-yellow-600 font-bold mb-2">SYNERGY</span>
                         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-2">
                             의미있는 삶의 리듬을 '함께' 만들다
                         </h2>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-blue-500 mb-6">
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-yellow-600 mb-6">
                             리추얼 라이프(Ritual Life)
                         </h2>
                         <p className="text-gray-500 text-lg">
@@ -104,9 +104,9 @@ export const RitualLife: React.FC = () => {
                 <FadeIn delay={600}>
                     <div className="text-center">
                         <h3 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight word-keep">
-                            함께 하는 리추얼로 <span className="text-blue-600 relative inline-block">
+                            함께 하는 리추얼로 <span className="text-yellow-600 relative inline-block">
                                 연결성·지속성 강화
-                                <span className="absolute bottom-1 left-0 w-full h-3 bg-blue-100 -z-10 bg-opacity-60"></span>
+                                <span className="absolute bottom-1 left-0 w-full h-3 bg-yellow-100 -z-10 bg-opacity-60"></span>
                             </span>
                         </h3>
                     </div>

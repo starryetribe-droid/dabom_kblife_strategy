@@ -8,8 +8,8 @@ export const MarketContext: React.FC = () => {
             <div className="max-w-[1280px] mx-auto px-6">
                 <FadeIn>
                     <div className="text-center mb-16">
-                        <span className="text-monimo-blue font-bold tracking-wider text-[15px] uppercase mb-3 block">MARKET CONTEXT</span>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-monimo-black leading-tight">
+                        <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-3 block">MARKET CONTEXT</span>
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-kb-black leading-tight">
                             지금, 현대인의 마음 건강
                         </h2>
                         <p className="mt-4 text-gray-500 text-lg">
@@ -23,7 +23,7 @@ export const MarketContext: React.FC = () => {
                     <FadeIn delay={100}>
                         <div className="bg-white rounded-[2rem] p-10 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 h-full flex flex-col relative overflow-hidden group">
                             <div className="flex items-center gap-3 mb-6">
-                                <div className="w-10 h-10 rounded-xl bg-blue-50 text-monimo-blue flex items-center justify-center text-xl">
+                                <div className="w-10 h-10 rounded-xl bg-yellow-50 text-kb-yellow flex items-center justify-center text-xl">
                                     <i className="fa-solid fa-chart-line"></i>
                                 </div>
                                 <h3 className="text-xl font-bold text-gray-900">우울증 환자 급증</h3>
@@ -31,14 +31,14 @@ export const MarketContext: React.FC = () => {
 
                             <div className="mb-6">
                                 <div className="flex items-baseline gap-2">
-                                    <span className="text-5xl font-extrabold text-monimo-blue">110만</span>
+                                    <span className="text-5xl font-extrabold text-kb-yellow">110만</span>
                                     <span className="text-xl font-bold text-gray-500">명 돌파</span>
                                 </div>
                             </div>
 
                             <div className="space-y-2 text-gray-600 font-medium leading-relaxed mb-8 flex-1">
                                 <p>2020년 83만 명 수준에서</p>
-                                <p>2024년 110만 명으로 <span className="text-monimo-black font-bold">30% 넘게 증가.</span></p>
+                                <p>2024년 110만 명으로 <span className="text-kb-black font-bold">30% 넘게 증가.</span></p>
                                 <p>연평균 7.4% 증가로 가파른 증가세를 보이고 있습니다.</p>
                             </div>
 
@@ -67,7 +67,7 @@ export const MarketContext: React.FC = () => {
 
                             <div className="space-y-2 text-gray-600 font-medium leading-relaxed mb-8 flex-1">
                                 <p>2024년 환자수 12만 명 돌파.</p>
-                                <p>특히 <span className="text-monimo-black font-bold">30대 여성 진료비</span>는</p>
+                                <p>특히 <span className="text-kb-black font-bold">30대 여성 진료비</span>는</p>
                                 <p>5년 전 대비 10배 이상 폭증했습니다.</p>
                             </div>
 
@@ -96,7 +96,7 @@ export const MarketContext: React.FC = () => {
 
                             <div className="space-y-2 text-gray-600 font-medium leading-relaxed mb-8 flex-1">
                                 <p>과도한 스마트폰 이용으로</p>
-                                <p><span className="text-monimo-black font-bold">정신건강 및 인지기능</span>에</p>
+                                <p><span className="text-kb-black font-bold">정신건강 및 인지기능</span>에</p>
                                 <p>영향을 받고 있습니다.</p>
                             </div>
 
@@ -109,9 +109,9 @@ export const MarketContext: React.FC = () => {
 
                 <FadeIn delay={400}>
                     <div className="text-center">
-                        <p className="text-2xl md:text-3xl font-extrabold text-monimo-black leading-snug">
+                        <p className="text-2xl md:text-3xl font-extrabold text-kb-black leading-snug">
                             "사후 치료에서 일상 관리로,<br />
-                            <span className="text-monimo-blue">전 연령대 '신체·멘탈 통합 관리' 시장 선점</span>"
+                            <span className="text-kb-yellow">전 연령대 '신체·멘탈 통합 관리' 시장 선점</span>"
                         </p>
                     </div>
                 </FadeIn>

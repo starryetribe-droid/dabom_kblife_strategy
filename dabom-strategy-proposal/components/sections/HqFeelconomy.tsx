@@ -8,8 +8,8 @@ export const HqFeelconomy: React.FC = () => {
             <div className="max-w-[1280px] mx-auto px-6">
                 <FadeIn>
                     <div className="text-center mb-12">
-                        <span className="text-monimo-blue font-bold tracking-wider text-[15px] uppercase mb-3 block">STRATEGIC FRAMEWORK</span>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-monimo-black leading-tight mb-4">
+                        <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-3 block">STRATEGIC FRAMEWORK</span>
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-kb-black leading-tight mb-4">
                             HQ & Feelconomy
                         </h2>
                         <p className="text-gray-500 text-lg">
@@ -27,12 +27,12 @@ export const HqFeelconomy: React.FC = () => {
                                 <i className="fa-solid fa-brain text-[250px]"></i>
                             </div>
 
-                            <div className="text-monimo-blue font-bold tracking-wider text-[14px] uppercase mb-2">CORE VALUE 01</div>
+                            <div className="text-kb-yellow font-bold tracking-wider text-[14px] uppercase mb-2">CORE VALUE 01</div>
                             <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-8">건강 지능 (HQ)</h3>
 
                             <div className="space-y-6 flex-1">
                                 <div className="flex gap-4 items-start">
-                                    <div className="w-10 h-10 rounded-full bg-blue-50 text-monimo-blue flex items-center justify-center shrink-0 text-lg">
+                                    <div className="w-10 h-10 rounded-full bg-yellow-50 text-kb-yellow flex items-center justify-center shrink-0 text-lg">
                                         <i className="fa-solid fa-microchip"></i>
                                     </div>
                                     <div>
@@ -42,7 +42,7 @@ export const HqFeelconomy: React.FC = () => {
                                 </div>
 
                                 <div className="flex gap-4 items-start">
-                                    <div className="w-10 h-10 rounded-full bg-blue-50 text-monimo-blue flex items-center justify-center shrink-0 text-lg">
+                                    <div className="w-10 h-10 rounded-full bg-yellow-50 text-kb-yellow flex items-center justify-center shrink-0 text-lg">
                                         <i className="fa-solid fa-shield-heart"></i>
                                     </div>
                                     <div>
@@ -52,7 +52,7 @@ export const HqFeelconomy: React.FC = () => {
                                 </div>
 
                                 <div className="flex gap-4 items-start">
-                                    <div className="w-10 h-10 rounded-full bg-blue-50 text-monimo-blue flex items-center justify-center shrink-0 text-lg">
+                                    <div className="w-10 h-10 rounded-full bg-yellow-50 text-kb-yellow flex items-center justify-center shrink-0 text-lg">
                                         <i className="fa-solid fa-layer-group"></i>
                                     </div>
                                     <div>
@@ -72,12 +72,12 @@ export const HqFeelconomy: React.FC = () => {
                                 <i className="fa-solid fa-wallet text-[250px]"></i>
                             </div>
 
-                            <div className="text-monimo-blue font-bold tracking-wider text-[14px] uppercase mb-2">CORE VALUE 02</div>
+                            <div className="text-kb-yellow font-bold tracking-wider text-[14px] uppercase mb-2">CORE VALUE 02</div>
                             <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-8">필코노미 (Feelconomy)</h3>
 
                             <div className="space-y-6 flex-1">
                                 <div className="flex gap-4 items-start">
-                                    <div className="w-10 h-10 rounded-full bg-blue-50 text-monimo-blue flex items-center justify-center shrink-0 text-lg">
+                                    <div className="w-10 h-10 rounded-full bg-yellow-50 text-kb-yellow flex items-center justify-center shrink-0 text-lg">
                                         <i className="fa-solid fa-hand-holding-dollar"></i>
                                     </div>
                                     <div>
@@ -87,7 +87,7 @@ export const HqFeelconomy: React.FC = () => {
                                 </div>
 
                                 <div className="flex gap-4 items-start">
-                                    <div className="w-10 h-10 rounded-full bg-blue-50 text-monimo-blue flex items-center justify-center shrink-0 text-lg">
+                                    <div className="w-10 h-10 rounded-full bg-yellow-50 text-kb-yellow flex items-center justify-center shrink-0 text-lg">
                                         <i className="fa-regular fa-face-smile"></i>
                                     </div>
                                     <div>
@@ -97,7 +97,7 @@ export const HqFeelconomy: React.FC = () => {
                                 </div>
 
                                 <div className="flex gap-4 items-start">
-                                    <div className="w-10 h-10 rounded-full bg-blue-50 text-monimo-blue flex items-center justify-center shrink-0 text-lg">
+                                    <div className="w-10 h-10 rounded-full bg-yellow-50 text-kb-yellow flex items-center justify-center shrink-0 text-lg">
                                         <i className="fa-solid fa-basket-shopping"></i>
                                     </div>
                                     <div>

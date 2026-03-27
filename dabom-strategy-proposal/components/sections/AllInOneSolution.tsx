@@ -54,9 +54,9 @@ export const AllInOneSolution: React.FC = () => {
             icon: "fa-brain",
             title: "두뇌 건강 운동",
             desc: "난이도가 자동 조절되는 맞춤형 게임",
-            bgValues: "bg-blue-50 text-blue-500",
-            screenBg: "bg-blue-500",
-            iconColor: "text-blue-500"
+            bgValues: "bg-yellow-50 text-yellow-600",
+            screenBg: "bg-yellow-500",
+            iconColor: "text-yellow-600"
         },
         {
             icon: "fa-file-lines",
@@ -118,20 +118,20 @@ export const AllInOneSolution: React.FC = () => {
                 {/* Header */}
                 <div className="text-center mb-12 md:mb-16 w-full">
                     <FadeIn>
-                        <span className="text-monimo-blue font-bold tracking-wider text-[15px] uppercase mb-3 block">
+                        <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-3 block">
                             All-in-One Solution
                         </span>
-                        <h2 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight text-monimo-black hidden md:block">
+                        <h2 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight text-kb-black hidden md:block">
                             전문성에 재미를 더한<br />
-                            <span className="text-monimo-blue">올인원 멘탈케어 패키지</span>
+                            <span className="text-kb-yellow">올인원 멘탈케어 패키지</span>
                         </h2>
                         {/* Mobile simplified header */}
-                        <h2 className="text-3xl font-extrabold mb-4 leading-tight text-monimo-black md:hidden">
+                        <h2 className="text-3xl font-extrabold mb-4 leading-tight text-kb-black md:hidden">
                             전문성에 재미를 더한<br />
-                            <span className="text-monimo-blue">올인원 패키지</span>
+                            <span className="text-kb-yellow">올인원 패키지</span>
                         </h2>
 
-                        <p className="text-monimo-gray font-medium text-[16px] md:text-[20px] leading-relaxed break-keep">
+                        <p className="text-kb-gray font-medium text-[16px] md:text-[20px] leading-relaxed break-keep">
                             예방부터 진단, 관리, 그리고 즐거움까지.<br />
                             시니어 멘탈케어에 필요한 모든 기능을 하나의 앱에 담았습니다.
                         </p>
@@ -149,7 +149,7 @@ export const AllInOneSolution: React.FC = () => {
                                     className={`
                     relative rounded-[2rem] p-8 border transition-all duration-300 h-full flex flex-col cursor-pointer
                     ${activeIndex === index
-                                            ? 'bg-white border-monimo-blue shadow-[0_10px_30px_-10px_rgba(37,99,235,0.15)] ring-1 ring-monimo-blue/20 scale-[1.02]'
+                                            ? 'bg-white border-kb-yellow shadow-[0_10px_30px_-10px_rgba(37,99,235,0.15)] ring-1 ring-kb-yellow/20 scale-[1.02]'
                                             : 'bg-white border-gray-100 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.05)] hover:bg-gray-50'
                                         }
                   `}
@@ -162,10 +162,10 @@ export const AllInOneSolution: React.FC = () => {
                                     </div>
 
                                     <div>
-                                        <h3 className={`text-xl font-extrabold mb-2 transition-colors ${activeIndex === index ? 'text-monimo-black' : 'text-gray-700'}`}>
+                                        <h3 className={`text-xl font-extrabold mb-2 transition-colors ${activeIndex === index ? 'text-kb-black' : 'text-gray-700'}`}>
                                             {card.title}
                                         </h3>
-                                        <p className="text-[16px] text-monimo-gray font-medium break-keep leading-relaxed">
+                                        <p className="text-[16px] text-kb-gray font-medium break-keep leading-relaxed">
                                             {card.desc}
                                         </p>
                                     </div>

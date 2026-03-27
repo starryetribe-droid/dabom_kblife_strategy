@@ -20,13 +20,13 @@ export const InterimSection: React.FC<InterimSectionProps> = ({
     label
 }) => {
     const bgClass = theme === 'blue'
-        ? 'bg-monimo-blue'
+        ? 'bg-kb-yellow'
         : theme === 'light'
             ? 'bg-gray-100'
-            : 'bg-monimo-black';
+            : 'bg-kb-black';
 
-    const textClass = theme === 'light' ? 'text-monimo-black' : 'text-white';
-    const descClass = theme === 'light' ? 'text-gray-600' : 'text-white';
+    const textClass = 'text-[#545045]';
+    const descClass = 'text-[#545045]';
 
     return (
         <SectionWrapper id={id} className={bgClass} pageNumber={pageNumber}>
@@ -34,7 +34,7 @@ export const InterimSection: React.FC<InterimSectionProps> = ({
                 <FadeIn>
                     <div className="relative">
                         {/* Decorative Line */}
-                        <div className={`w-1 bg-gradient-to-b from-transparent ${theme === 'light' ? 'via-monimo-blue' : 'via-white'} to-transparent h-20 mx-auto mb-8 opacity-50`}></div>
+                        <div className={`w-1 bg-gradient-to-b from-transparent ${theme === 'light' ? 'via-kb-yellow' : 'via-white'} to-transparent h-20 mx-auto mb-8 opacity-50`}></div>
 
                         {label && (
                             <span className={`block text-xl md:text-2xl font-bold mb-4 tracking-widest uppercase opacity-80 ${textClass}`}>

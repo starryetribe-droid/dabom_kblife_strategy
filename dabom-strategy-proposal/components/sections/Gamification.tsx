@@ -8,8 +8,8 @@ export const Gamification: React.FC = () => {
             <div className="max-w-[1400px] mx-auto px-6 w-full h-full flex flex-col justify-center">
                 <FadeIn>
                     <div className="mb-16 text-center">
-                        <span className="text-monimo-blue font-bold tracking-wider text-[15px] uppercase mb-2 block">STRATEGY 02</span>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-monimo-black leading-tight mb-4">
+                        <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">STRATEGY 02</span>
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-kb-black leading-tight mb-4">
                             게이미피케이션 요소 강화
                         </h2>
                         <p className="text-gray-500 text-[18px]">
@@ -23,7 +23,7 @@ export const Gamification: React.FC = () => {
                     <FadeIn delay={100} className="h-full">
                         <div className="bg-white rounded-[2rem] p-6 shadow-sm h-full flex flex-col items-start text-left">
                             <div className="flex items-center gap-3 mb-4">
-                                <i className="fa-solid fa-compact-disc text-blue-500 text-2xl"></i>
+                                <i className="fa-solid fa-compact-disc text-yellow-600 text-2xl"></i>
                                 <h3 className="text-xl font-bold text-gray-900 word-keep">전 연령대가 즐기는 아이템</h3>
                             </div>
                             <p className="text-gray-500 text-[15px] leading-relaxed word-keep">
@@ -99,9 +99,9 @@ export const Gamification: React.FC = () => {
                                     <div className="absolute inset-0 z-20 pointer-events-none opacity-40 mix-blend-multiply" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")` }}></div>
                                     <div className="absolute inset-0 z-20 pointer-events-none shadow-[inset_0_0_40px_rgba(0,0,0,0.1)]"></div>
 
-                                    <div className="absolute inset-0 bg-blue-900 z-0">
+                                    <div className="absolute inset-0 bg-amber-800 z-0">
                                         <div className="absolute inset-0 opacity-80" style={{ backgroundImage: 'radial-gradient(circle at 70% 30%, #4f46e5 0%, transparent 60%)' }}></div>
-                                        <div className="absolute w-[180%] h-[180%] -left-[40%] -top-[40%] border-[40px] border-blue-500/10 rounded-full"></div>
+                                        <div className="absolute w-[180%] h-[180%] -left-[40%] -top-[40%] border-[40px] border-yellow-500/10 rounded-full"></div>
                                         <div className="absolute w-[100%] h-[100%] left-0 top-0 border-[60px] border-indigo-600/20 rounded-full mix-blend-screen scale-75"></div>
                                     </div>
 

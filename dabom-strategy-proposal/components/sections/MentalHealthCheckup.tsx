@@ -15,11 +15,11 @@ export const MentalHealthCheckup: React.FC = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <FadeIn>
-            <span className="text-monimo-blue font-bold tracking-wider text-[15px] uppercase mb-2 block">Standardized Diagnosis & Reporting</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-monimo-black leading-tight">
-              전문적인 <span className="text-monimo-blue">심리 진단</span>과 <span className="text-monimo-blue">데이터 리포트</span>
+            <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">Standardized Diagnosis & Reporting</span>
+            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-kb-black leading-tight">
+              전문적인 <span className="text-kb-yellow">심리 진단</span>과 <span className="text-kb-yellow">데이터 리포트</span>
             </h2>
-            <p className="text-monimo-gray font-medium text-[16px] md:text-lg max-w-3xl mx-auto break-keep">
+            <p className="text-kb-gray font-medium text-[16px] md:text-lg max-w-3xl mx-auto break-keep">
               한국심리학회 인증 도구로 측정하고, 개인의 변화에 집중한 리포트 제공
             </p>
           </FadeIn>
@@ -33,24 +33,24 @@ export const MentalHealthCheckup: React.FC = () => {
             {/* Left Column: Standardized Tools */}
             <FadeIn delay={100} className="space-y-6">
               <div className="flex items-center gap-3 mb-2">
-                <div className="w-10 h-10 rounded-full bg-monimo-blue text-white flex items-center justify-center text-lg shadow-sm">
+                <div className="w-10 h-10 rounded-full bg-kb-yellow text-white flex items-center justify-center text-lg shadow-sm">
                   <i className="fa-solid fa-clipboard-check"></i>
                 </div>
-                <h3 className="text-xl font-bold text-monimo-black">표준화된 검증 도구</h3>
+                <h3 className="text-xl font-bold text-kb-black">표준화된 검증 도구</h3>
               </div>
 
               <div className="space-y-4">
                 {[
-                  { id: 'MHS:D', name: '한국형 우울장애 선별 도구', desc: 'Depression Scale', color: 'text-blue-500', bg: 'bg-blue-50' },
+                  { id: 'MHS:D', name: '한국형 우울장애 선별 도구', desc: 'Depression Scale', color: 'text-yellow-600', bg: 'bg-yellow-50' },
                   { id: 'MHS:A', name: '한국형 불안장애 선별 도구', desc: 'Anxiety Scale', color: 'text-pink-500', bg: 'bg-pink-50' },
                   { id: 'CORE', name: '핵심 활동 지수 (활력)', desc: 'Core Vitality Index', color: 'text-orange-500', bg: 'bg-orange-50' }
                 ].map((item, i) => (
-                  <GlassCard key={i} className="p-5 border border-gray-100 flex items-center gap-5 hover:border-monimo-blue/20 transition-all group">
+                  <GlassCard key={i} className="p-5 border border-gray-100 flex items-center gap-5 hover:border-kb-yellow/20 transition-all group">
                     <div className={`w-14 h-14 rounded-2xl ${item.bg} ${item.color} flex items-center justify-center font-black text-[15px] shrink-0 group-hover:scale-110 transition-transform`}>
                       {item.id}
                     </div>
                     <div>
-                      <h4 className="text-[18px] font-bold text-monimo-black leading-tight">{item.name}</h4>
+                      <h4 className="text-[18px] font-bold text-kb-black leading-tight">{item.name}</h4>
                       <p className="text-[15px] text-gray-400 font-medium mt-0.5">{item.desc}</p>
                     </div>
                   </GlassCard>
@@ -58,9 +58,9 @@ export const MentalHealthCheckup: React.FC = () => {
               </div>
 
               <div className="bg-white/60 p-5 rounded-3xl border border-gray-100 mt-4">
-                <p className="text-[15px] text-monimo-gray font-medium leading-relaxed">
+                <p className="text-[15px] text-kb-gray font-medium leading-relaxed">
                   <i className="fa-solid fa-certificate text-green-500 mr-2"></i>
-                  한국심리학회 공식 인증을 획득한 지표를 사용하여 서비스의 공신력을 보장합니다.
+                  한국심리학회 공식 인증을 획득한 지표를 사용하여<br />서비스의 공신력을 보장합니다.
                 </p>
               </div>
             </FadeIn>
@@ -68,10 +68,10 @@ export const MentalHealthCheckup: React.FC = () => {
             {/* Middle Column: Mind Condition Report Features */}
             <FadeIn delay={200} className="space-y-6">
               <div className="flex items-center gap-3 mb-2">
-                <div className="w-10 h-10 rounded-full bg-monimo-black text-white flex items-center justify-center text-lg shadow-sm">
+                <div className="w-10 h-10 rounded-full bg-kb-black text-white flex items-center justify-center text-lg shadow-sm">
                   <i className="fa-solid fa-chart-line"></i>
                 </div>
-                <h3 className="text-xl font-bold text-monimo-black">마음 컨디션 리포트</h3>
+                <h3 className="text-xl font-bold text-kb-black">마음 컨디션 리포트</h3>
               </div>
 
               <div className="space-y-4">
@@ -80,8 +80,8 @@ export const MentalHealthCheckup: React.FC = () => {
                     icon: 'fa-shield-heart',
                     name: '예방적 진단 및 관리',
                     desc: '예방적 차원에서 마음 상태를 진단하고 관리할 수 있는 리포트 제공',
-                    color: 'text-monimo-blue',
-                    bg: 'bg-blue-50'
+                    color: 'text-kb-yellow',
+                    bg: 'bg-yellow-50'
                   },
                   {
                     icon: 'fa-chart-area',
@@ -98,13 +98,13 @@ export const MentalHealthCheckup: React.FC = () => {
                     bg: 'bg-green-50'
                   }
                 ].map((item, i) => (
-                  <GlassCard key={i} className="p-5 border border-gray-100 flex items-start gap-5 hover:border-monimo-blue/20 transition-all group min-h-[110px]">
+                  <GlassCard key={i} className="p-5 border border-gray-100 flex items-start gap-5 hover:border-kb-yellow/20 transition-all group min-h-[110px]">
                     <div className={`w-14 h-14 rounded-2xl ${item.bg} ${item.color} flex items-center justify-center text-xl shrink-0 group-hover:scale-110 transition-transform`}>
                       <i className={`fa-solid ${item.icon}`}></i>
                     </div>
                     <div>
-                      <h4 className="text-[18px] font-bold text-monimo-black leading-tight">{item.name}</h4>
-                      <p className="text-[15px] text-monimo-gray font-medium mt-1.5 leading-relaxed break-keep">{item.desc}</p>
+                      <h4 className="text-[18px] font-bold text-kb-black leading-tight">{item.name}</h4>
+                      <p className="text-[15px] text-kb-gray font-medium mt-1.5 leading-relaxed break-keep">{item.desc}</p>
                     </div>
                   </GlassCard>
                 ))}
@@ -147,7 +147,7 @@ export const MentalHealthCheckup: React.FC = () => {
             </FadeIn>
           </div>
         </div>
-      </div>
-    </SectionWrapper>
+      </div >
+    </SectionWrapper >
   );
 };

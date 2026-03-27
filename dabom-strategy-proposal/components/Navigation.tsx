@@ -44,10 +44,10 @@ export const Navbar: React.FC = () => {
           className="pointer-events-auto flex items-center gap-4 group transition-all duration-500"
         >
           {/* Minimal Line Indicator */}
-          <div className="w-6 h-[1px] bg-gray-200 group-hover:w-10 group-hover:bg-monimo-blue transition-all duration-500"></div>
+          <div className="w-6 h-[1px] bg-gray-200 group-hover:w-10 group-hover:bg-kb-yellow transition-all duration-500"></div>
 
           {/* Label: Minimal Presence */}
-          <span className="text-[11px] font-bold text-gray-300 group-hover:text-monimo-blue transition-colors duration-500 tracking-tighter whitespace-nowrap">
+          <span className="text-[11px] font-bold text-gray-300 group-hover:text-kb-yellow transition-colors duration-500 tracking-tighter whitespace-nowrap">
             {item.label}
           </span>
         </a>
