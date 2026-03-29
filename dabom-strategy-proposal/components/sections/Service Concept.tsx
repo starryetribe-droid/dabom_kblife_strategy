@@ -8,20 +8,20 @@ export const ServiceConcept: React.FC = () => {
     <SectionWrapper id="service-concept" className="bg-white">
       <div className="max-w-7xl mx-auto px-6 w-full">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <FadeIn>
             <span className="text-kb-yellow font-bold tracking-wider text-sm uppercase mb-2 block">Service Concept</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold text-kb-black">AI 라이프 케어 메이트</h2>
+            <h2 className="apple-title text-[#1d1d1f] ">AI 라이프 케어 메이트</h2>
             <p className="text-kb-gray font-medium mt-4 text-lg">초개인화된 데이터로 먼저 다가가는 능동형 케어</p>
           </FadeIn>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
 
           {/* Left: Service Identity & Value Proposition */}
           <FadeIn className="order-2 lg:order-1">
             <div className="mb-8">
-              <h2 className="text-3xl md:text-4xl font-extrabold text-kb-black leading-tight mb-6">
+              <h2 className="apple-title text-[#1d1d1f] mb-6">
                 데이터로 공감하고<br />
                 먼저 다가가는 친구,<br />
                 <span className="text-kb-yellow">AI 다봄 (DABOM)</span>

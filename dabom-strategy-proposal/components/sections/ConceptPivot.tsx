@@ -7,27 +7,27 @@ export const ConceptPivot: React.FC = () => {
         <SectionWrapper id="concept-pivot" className="bg-white" pageNumber={20}>
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center">
                 <FadeIn>
-                    <div className="mb-12 text-center">
+                    <div className="mb-6 text-center">
                         <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">STRATEGY 01</span>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-kb-black leading-tight">
+                        <h2 className="apple-title text-[#1d1d1f] ">
                             시니어를 넘어 <span className="text-kb-yellow">전 연령대로,</span><br />
                             <span className="text-kb-yellow">컨셉 피봇 (Concept Pivot)</span>
                         </h2>
                     </div>
                 </FadeIn>
 
-                <div className="flex justify-center mb-12">
+                <div className="flex justify-center mb-6">
                     {/* Card 1: Brand Renaming */}
                     <FadeIn delay={100} className="w-full max-w-4xl">
                         <div className="bg-white rounded-[2rem] p-10 shadow-[0_10px_40px_rgba(0,0,0,0.06)] border border-gray-100 flex flex-col hover:-translate-y-2 transition-transform duration-300">
-                            <div className="flex items-center justify-center gap-4 mb-10">
+                            <div className="flex items-center justify-center gap-4 mb-6">
                                 <div className="w-14 h-14 rounded-2xl bg-yellow-50 text-kb-yellow flex items-center justify-center text-2xl">
                                     <i className="fa-solid fa-arrows-rotate"></i>
                                 </div>
-                                <h3 className="text-2xl font-bold text-gray-900">브랜드 리네이밍</h3>
+                                <h3 className="apple-subtitle text-[#1d1d1f] ">브랜드 리네이밍</h3>
                             </div>
 
-                            <div className="flex flex-col md:flex-row items-start justify-center gap-8 md:gap-16 mb-10 flex-grow px-4 md:px-10">
+                            <div className="flex flex-col md:flex-row items-start justify-center gap-8 md:gap-8 mb-6 flex-grow px-4 md:px-10">
                                 <div className="flex flex-col items-center">
                                     <div className="flex items-center gap-3 mb-3">
                                         <span className="text-gray-400 line-through text-[18px]">치매 예방</span>
@@ -70,7 +70,7 @@ export const ConceptPivot: React.FC = () => {
                 </div>
 
                 <FadeIn delay={300}>
-                    <div className="text-center py-12 px-6">
+                    <div className="text-center py-6 px-6">
                         <p className="text-2xl md:text-3xl font-bold text-gray-900 leading-relaxed break-keep">
                             치매·우울증 예방의 무거운 프레임을 벗어나,<br />
                             일상적인 <span className="text-kb-yellow border-b-4 border-kb-yellow/30 inline-block px-1">'멘탈 건강 관리'</span>로 재정의합니다.

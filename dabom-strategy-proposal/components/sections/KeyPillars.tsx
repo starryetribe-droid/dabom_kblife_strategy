@@ -42,10 +42,10 @@ export const KeyPillars: React.FC = () => {
   return (
     <SectionWrapper id="key-pillars" className="bg-kb-bg" pageNumber={9}>
       <div className="max-w-7xl mx-auto px-6 w-full">
-        <div className="text-center mb-12">
+        <div className="text-center mb-6">
           <FadeIn>
             <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">Core Strategy</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-kb-black">핵심 전략</h2>
+            <h2 className="apple-title text-[#1d1d1f] mb-4">핵심 전략</h2>
             <p className="text-kb-gray font-medium text-lg md:text-xl">고객 경험 개선을 위한 3단계 접근법</p>
           </FadeIn>
         </div>
@@ -72,7 +72,7 @@ export const KeyPillars: React.FC = () => {
                     <span className={`inline-block px-4 py-1.5 rounded-full text-[15px] font-bold ${pillar.bgAccent} ${pillar.textAccent} mb-3 shadow-sm`}>
                       {pillar.engTitle}
                     </span>
-                    <h3 className="text-2xl font-extrabold text-kb-black leading-tight break-keep">
+                    <h3 className="apple-subtitle text-[#1d1d1f] break-keep">
                       {pillar.title}
                     </h3>
                   </div>

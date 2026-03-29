@@ -7,8 +7,8 @@ export const RoutineScenarios: React.FC = () => {
         <SectionWrapper id="routine-scenarios" className="bg-gray-50" pageNumber={18}>
             <div className="max-w-[1280px] mx-auto px-6 h-full flex flex-col justify-center">
                 <FadeIn>
-                    <div className="mb-10 pl-4 border-l-4 border-kb-yellow">
-                        <h2 className="text-3xl md:text-4xl font-extrabold text-kb-black leading-tight">
+                    <div className="mb-6 pl-4 border-l-4 border-kb-yellow">
+                        <h2 className="apple-title text-[#1d1d1f] ">
                             일상적 소재 자서전적 기억 훈련 시나리오
                         </h2>
                     </div>
@@ -21,7 +21,7 @@ export const RoutineScenarios: React.FC = () => {
                                 <div className="w-10 h-10 rounded-full bg-orange-500 text-white flex items-center justify-center text-lg">
                                     <i className="fa-solid fa-utensils"></i>
                                 </div>
-                                <h3 className="text-lg font-bold text-gray-900">Scenario: 점심 식사</h3>
+                                <h3 className="apple-subtitle text-[#1d1d1f] ">Scenario: 점심 식사</h3>
                             </div>
 
                             <div className="space-y-6 text-[15px]">

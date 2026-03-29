@@ -9,7 +9,7 @@ export const B2BPivot: React.FC = () => {
                 <FadeIn>
                     <div className="text-center mb-6">
                         <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-1 block">B2B STRATEGY PIVOT</span>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-kb-black leading-tight mb-2">
+                        <h2 className="apple-title text-[#1d1d1f] mb-2">
                             B2B 전략 전환: <span className="text-kb-yellow">브레인 부스터 & 보편적 웰니스</span>
                         </h2>
                         <p className="text-gray-500 text-[16px] md:text-[17px]">
@@ -27,7 +27,7 @@ export const B2BPivot: React.FC = () => {
                                     <i className="fa-solid fa-rocket"></i>
                                 </div>
                                 <div className="flex flex-col">
-                                    <h3 className="text-[18px] font-bold text-gray-900">1. 인지훈련</h3>
+                                    <h3 className="apple-subtitle text-[#1d1d1f] ]">1. 인지훈련</h3>
                                     <p className="text-kb-yellow font-bold text-[15px]">"치매 예방에서 브레인 부스터로"</p>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@ export const B2BPivot: React.FC = () => {
                                     <i className="fa-solid fa-shield-heart"></i>
                                 </div>
                                 <div className="flex flex-col">
-                                    <h3 className="text-[18px] font-bold text-gray-900">2. 자서전적 기억 훈련</h3>
+                                    <h3 className="apple-subtitle text-[#1d1d1f] ]">2. 자서전적 기억 훈련</h3>
                                     <p className="text-purple-600 font-bold text-[15px]">"낙인 없이 누리는 보편적 복지"</p>
                                 </div>
                             </div>

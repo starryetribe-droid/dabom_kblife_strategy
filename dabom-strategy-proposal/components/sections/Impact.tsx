@@ -7,7 +7,7 @@ export const Impact: React.FC = () => {
     <SectionWrapper id="impact" className="bg-kb-yellow" pageNumber={24}>
       <div className="max-w-[1440px] mx-auto px-8 text-center w-full text-white">
         <FadeIn>
-          <h2 className="text-3xl md:text-5xl font-extrabold mb-16">기대 효과</h2>
+          <h2 className="apple-title text-[#1d1d1f] mb-8">기대 효과</h2>
         </FadeIn>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-10">

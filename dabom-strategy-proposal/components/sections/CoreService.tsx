@@ -8,57 +8,63 @@ export const CoreService: React.FC = () => {
     <SectionWrapper id="core-service" className="bg-white" pageNumber={10}>
       <div className="max-w-7xl mx-auto px-6 w-full">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <FadeIn>
             <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">Service Concept</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold text-kb-black">AI 시니어 리빙 메이트</h2>
+            <h2 className="apple-title text-[#1d1d1f] ">AI 시니어 리빙 메이트</h2>
             <p className="text-kb-gray font-medium mt-4 text-[18px]">초개인화된 데이터로 먼저 다가가는 능동형 케어</p>
           </FadeIn>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
 
           {/* Left: Service Identity & Value Proposition */}
           <FadeIn className="order-2 lg:order-1">
             <div className="mb-8">
-              <h2 className="text-3xl md:text-4xl font-extrabold text-kb-black leading-tight mb-6">
+              <h3 className="font-extrabold text-[#111] text-[24px] md:text-[32px] leading-tight mb-6 tracking-tight">
                 데이터로 공감하고 먼저 다가가는 친구,<br />
                 <span className="text-kb-yellow">AI 다봄 (DABOM)</span>
-              </h2>
-              <p className="text-[18px] text-kb-gray font-medium leading-relaxed mb-8 break-keep">
+              </h3>
+              <p className="text-[18px] md:text-[20px] text-[#666] font-medium leading-relaxed mb-2 break-keep tracking-tight">
                 다봄이는 사용자의 라이프 로그(Life Log)를 분석하여,<br />
-                단순한 응답을 넘어 <span className="text-kb-black font-bold">먼저 말을 걸고 케어하는</span> 능동형 인공지능입니다.
+                단순한 응답을 넘어 <span className="text-kb-black font-black">먼저 말을 걸고 케어</span> 합니다
               </p>
             </div>
 
-            <div className="space-y-4">
-              <GlassCard className="p-5 flex items-center gap-5 border border-gray-100 hover:border-kb-yellow/30 transition-colors">
+            <div className="space-y-5">
+              <GlassCard className="p-6 flex items-start gap-5 border border-gray-100 hover:border-kb-yellow/30 transition-colors">
                 <div className="w-14 h-14 rounded-2xl bg-yellow-50 text-kb-yellow flex items-center justify-center text-2xl shrink-0">
                   <i className="fa-solid fa-heart-pulse"></i>
                 </div>
                 <div>
-                  <h4 className="font-bold text-kb-black text-[17px]">초개인화 감성 케어</h4>
-                  <p className="text-[15px] text-gray-500">헬스 데이터와 연동된 신체/정서 통합 분석</p>
+                  <h4 className="font-black text-kb-black text-[19px] mb-1.5">
+                    <span className="text-kb-yellow">초개인화</span> 큐레이션
+                  </h4>
+                  <p className="text-[16px] text-gray-500 font-medium leading-relaxed">대화 데이터로 정교하게 파악된 니즈 기반으로 맞춤형 콘텐츠/상품 추천</p>
                 </div>
               </GlassCard>
 
-              <GlassCard className="p-5 flex items-center gap-5 border border-gray-100 hover:border-kb-yellow/30 transition-colors">
+              <GlassCard className="p-6 flex items-start gap-5 border border-gray-100 hover:border-kb-yellow/30 transition-colors">
                 <div className="w-14 h-14 rounded-2xl bg-purple-50 text-purple-600 flex items-center justify-center text-2xl shrink-0">
                   <i className="fa-solid fa-comments"></i>
                 </div>
                 <div>
-                  <h4 className="font-bold text-kb-black text-[17px]">먼저 거는 대화</h4>
-                  <p className="text-[15px] text-gray-500">이상 징후 감지 시 먼저 안부를 묻는 능동적 개입</p>
+                  <h4 className="font-black text-kb-black text-[19px] mb-1.5">
+                    <span className="text-purple-600">먼저 거는</span> 대화
+                  </h4>
+                  <p className="text-[16px] text-gray-500 font-medium leading-relaxed">대화·마음검진·인지훈련 데이터 기반으로 사용자에게 먼저 대화 시도</p>
                 </div>
               </GlassCard>
 
-              <GlassCard className="p-5 flex items-center gap-5 border border-gray-100 hover:border-kb-yellow/30 transition-colors">
+              <GlassCard className="p-6 flex items-start gap-5 border border-gray-100 hover:border-kb-yellow/30 transition-colors">
                 <div className="w-14 h-14 rounded-2xl bg-orange-50 text-orange-600 flex items-center justify-center text-2xl shrink-0">
                   <i className="fa-solid fa-brain"></i>
                 </div>
                 <div>
-                  <h4 className="font-bold text-kb-black text-[17px]">Brain Fitness 연동</h4>
-                  <p className="text-[15px] text-gray-500">대화 속에서 자연스럽게 이어지는 인지 강화 훈련</p>
+                  <h4 className="font-black text-kb-black text-[19px] mb-1.5">
+                    <span className="text-orange-600">마음·두뇌건강</span> 코칭
+                  </h4>
+                  <p className="text-[16px] text-gray-500 font-medium leading-relaxed">대화속에서 자연스럽게 코칭하며 자서전적 기억 훈련 및 인지훈련 지속성 강화</p>
                 </div>
               </GlassCard>
             </div>

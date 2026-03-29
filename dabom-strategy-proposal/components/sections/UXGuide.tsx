@@ -8,10 +8,10 @@ export const UXGuide: React.FC = () => {
     <SectionWrapper id="ux-guide" className="bg-white" pageNumber={23}>
       <div className="max-w-[1440px] mx-auto px-6 w-full">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <FadeIn>
             <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">Inclusive Design</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-kb-black leading-tight">
+            <h2 className="apple-title text-[#1d1d1f] mb-4">
               시니어 RESPECT <span className="text-kb-yellow">UX/UI 가이드</span>
             </h2>
             <p className="text-kb-gray max-w-3xl mx-auto font-medium text-lg md:text-xl break-keep">
@@ -32,7 +32,7 @@ export const UXGuide: React.FC = () => {
                 <div className="w-16 h-16 rounded-2xl bg-orange-100 text-orange-600 flex items-center justify-center text-3xl mb-4 shadow-sm">
                   <i className="fa-solid fa-glasses"></i>
                 </div>
-                <h3 className="text-xl font-bold text-kb-black mb-2">1. Visual & Physical</h3>
+                <h3 className="apple-subtitle text-[#1d1d1f] mb-2">1. Visual & Physical</h3>
                 <p className="text-[16px] font-bold text-orange-500 mb-3">신체적 접근성: "잘 보이고 잘 눌러지게"</p>
                 <p className="text-[16px] text-kb-gray leading-relaxed break-keep font-medium">
                   노화로 인한 시각 저하(황변 현상)와 소근육 운동 능력 저하를 보완합니다.
@@ -85,7 +85,7 @@ export const UXGuide: React.FC = () => {
                 <div className="w-16 h-16 rounded-2xl bg-green-100 text-green-600 flex items-center justify-center text-3xl mb-4 shadow-sm">
                   <i className="fa-solid fa-road"></i>
                 </div>
-                <h3 className="text-xl font-bold text-kb-black mb-2">2. Cognitive Simplicity</h3>
+                <h3 className="apple-subtitle text-[#1d1d1f] mb-2">2. Cognitive Simplicity</h3>
                 <p className="text-[16px] font-bold text-green-600 mb-3">인지적 편의성: "직관적이고 단순하게"</p>
                 <p className="text-[16px] text-kb-gray leading-relaxed break-keep font-medium">
                   디지털 기기 조작 두려움을 없애고, 학습 없이 바로 사용할 수 있게 합니다.
@@ -144,7 +144,7 @@ export const UXGuide: React.FC = () => {
                 <div className="w-16 h-16 rounded-2xl bg-pink-100 text-pink-500 flex items-center justify-center text-3xl mb-4 shadow-sm">
                   <i className="fa-solid fa-hand-holding-heart"></i>
                 </div>
-                <h3 className="text-xl font-bold text-kb-black mb-2">3. Psychological Care</h3>
+                <h3 className="apple-subtitle text-[#1d1d1f] mb-2">3. Psychological Care</h3>
                 <p className="text-[16px] font-bold text-pink-500 mb-3">심리적 케어: "편안하고 따뜻하게"</p>
                 <p className="text-[16px] text-kb-gray leading-relaxed break-keep font-medium">
                   기술 장벽과 정신건강 서비스 이용에 대한 심리적 저항감을 낮춥니다.

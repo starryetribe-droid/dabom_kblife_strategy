@@ -14,10 +14,10 @@ export const ServiceArchitecture: React.FC = () => {
 
       <div className="max-w-[1440px] mx-auto px-6 w-full relative z-10">
         {/* Header Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <FadeIn>
             <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">Technology & Value</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-kb-black leading-tight">
+            <h2 className="apple-title text-[#1d1d1f] mb-4">
               AI 기술이 만드는 <span className="text-kb-yellow">정교한 케어</span>와 <span className="text-kb-yellow">데이터 가치</span>
             </h2>
             <p className="text-kb-gray font-medium text-[16px] md:text-lg max-w-3xl mx-auto break-keep">
@@ -35,7 +35,7 @@ export const ServiceArchitecture: React.FC = () => {
                   <i className="fa-solid fa-layer-group"></i>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-kb-black">AI 하이브리드 엔진 구조</h3>
+                  <h3 className="apple-subtitle text-[#1d1d1f] ">AI 하이브리드 엔진 구조</h3>
                   <p className="text-[15px] text-kb-yellow font-bold">자체 평가 모델 + 생성형 LLM 결합</p>
                 </div>
               </div>
@@ -104,7 +104,7 @@ export const ServiceArchitecture: React.FC = () => {
                   <i className="fa-solid fa-chart-pie"></i>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-kb-black">데이터 선순환 및 BM 확장</h3>
+                  <h3 className="apple-subtitle text-[#1d1d1f] ">데이터 선순환 및 BM 확장</h3>
                   <p className="text-[15px] text-kb-yellow font-bold">지속 가능한 비즈니스 임팩트</p>
                 </div>
               </div>
@@ -160,8 +160,9 @@ export const ServiceArchitecture: React.FC = () => {
           </FadeIn>
         </div>
       </div>
-      
-      <style dangerouslySetInnerHTML={{ __html: `
+
+      <style dangerouslySetInnerHTML={{
+        __html: `
         .animate-spin-slow {
           animation: spin 8s linear infinite;
         }

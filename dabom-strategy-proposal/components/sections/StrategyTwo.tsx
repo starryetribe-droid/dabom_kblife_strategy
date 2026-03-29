@@ -7,10 +7,10 @@ export const StrategyTwo: React.FC = () => {
   return (
     <SectionWrapper id="strategy-2" className="bg-white" pageNumber={12}>
       <div className="max-w-[1440px] mx-auto px-6 w-full">
-        <div className="text-center mb-10">
+        <div className="text-center mb-6">
           <FadeIn>
             <span className="text-kb-yellow font-bold tracking-wider text-sm uppercase mb-2 block">Strategy 02</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-kb-black">심층 공감형 대화를 통한,<br /><span className="text-kb-yellow">멘탈 데이터 품질 고도화</span></h2>
+            <h2 className="apple-title text-[#1d1d1f] mb-4">심층 공감형 대화를 통한,<br /><span className="text-kb-yellow">멘탈 데이터 품질 고도화</span></h2>
             <p className="text-kb-gray max-w-2xl mx-auto font-medium text-sm md:text-lg">
               20자 내외의 단순 '상태 태깅'을 대화 로그를 통해<br />
               '구체적인 데이터'로 전환하여 활용 가치를 높입니다.
@@ -22,7 +22,7 @@ export const StrategyTwo: React.FC = () => {
           {/* Left: Problem Definition (AS-IS) */}
           <FadeIn className="h-full">
             <GlassCard className="p-8 h-full flex flex-col justify-between overflow-hidden">
-              <h3 className="text-xl font-bold mb-6 text-kb-gray">현황 (AS-IS): 단순 선택형 기록</h3>
+              <h3 className="apple-subtitle text-[#1d1d1f] mb-6">현황 (AS-IS): 단순 선택형 기록</h3>
 
               <div className="flex flex-col xl:flex-row gap-6 items-center flex-grow">
                 {/* Description */}
@@ -119,7 +119,7 @@ export const StrategyTwo: React.FC = () => {
                 <i className="fa-solid fa-comments text-9xl text-kb-yellow"></i>
               </div>
               <div className="flex items-center justify-between mb-8 relative z-10">
-                <h3 className="text-xl font-bold text-kb-black">개선 (TO-BE): 심층 질의</h3>
+                <h3 className="apple-subtitle text-[#1d1d1f] ">개선 (TO-BE): 심층 질의</h3>
               </div>
 
               <div className="bg-[#F8F9FA] rounded-[2rem] p-6 h-auto flex flex-col border border-gray-100 space-y-4 relative z-10">
@@ -158,7 +158,7 @@ export const StrategyTwo: React.FC = () => {
 
               <div className="text-center mb-8 relative z-10">
                 <span className="bg-kb-yellow text-white text-sm font-bold px-3 py-1 rounded-full mb-3 inline-block shadow-sm">TO-BE Benefit</span>
-                <h3 className="text-xl md:text-2xl font-bold text-kb-black">고도화된 데이터로 창출되는 비즈니스 기회</h3>
+                <h3 className="apple-subtitle text-[#1d1d1f] ">고도화된 데이터로 창출되는 비즈니스 기회</h3>
                 <p className="text-sm md:text-[15px] text-kb-gray mt-2">상세 맥락 데이터 확보 시 가능한 확장 서비스</p>
               </div>
 

@@ -103,13 +103,13 @@ export const StrategyOne: React.FC = () => {
 
     return (
         <SectionWrapper id="strategy-1" className="bg-gray-50 relative overflow-hidden" pageNumber={11}>
-            <div className="max-w-[1440px] mx-auto px-6 w-full flex flex-col gap-12">
+            <div className="max-w-[1440px] mx-auto px-6 w-full flex flex-col gap-6">
                 {/* Top Section */}
                 <div className="flex flex-col md:flex-row items-end justify-between gap-10">
                     <div className="text-left shrink-0">
                         <FadeIn>
                             <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">Strategy 01</span>
-                            <h2 className="text-3xl md:text-5xl font-extrabold leading-tight text-kb-black break-keep">
+                            <h2 className="apple-title text-[#1d1d1f] break-keep">
                                 콘텐츠 탐색 대신,<br />
                                 <span className="text-kb-yellow">대화로 시작하는 멘탈케어</span>
                             </h2>

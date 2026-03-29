@@ -7,12 +7,12 @@ export const RitualLife: React.FC = () => {
         <SectionWrapper id="ritual-life" className="bg-gray-50" pageNumber={23}>
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center items-center">
                 <FadeIn>
-                    <div className="mb-12 text-center">
+                    <div className="mb-6 text-center">
                         <span className="block text-yellow-600 font-bold mb-2">SYNERGY</span>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-2">
+                        <h2 className="apple-title text-[#1d1d1f] mb-2">
                             의미있는 삶의 리듬을 '함께' 만들다
                         </h2>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-yellow-600 mb-6">
+                        <h2 className="apple-title text-[#1d1d1f] mb-6">
                             리추얼 라이프(Ritual Life)
                         </h2>
                         <p className="text-gray-500 text-lg">
@@ -39,9 +39,9 @@ export const RitualLife: React.FC = () => {
 
                 {/* Cards Grid */}
                 <FadeIn delay={300} className="w-full mb-6">
-                    <h3 className="text-2xl font-bold text-gray-900">리추얼 프로그램</h3>
+                    <h3 className="apple-subtitle text-[#1d1d1f] ">리추얼 프로그램</h3>
                 </FadeIn>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full mb-12">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full mb-6">
                     {/* Card 1 */}
                     <FadeIn delay={300}>
                         <div className="flex flex-col">
@@ -103,7 +103,7 @@ export const RitualLife: React.FC = () => {
                 {/* Footer */}
                 <FadeIn delay={600}>
                     <div className="text-center">
-                        <h3 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight word-keep">
+                        <h3 className="apple-subtitle text-[#1d1d1f] word-keep">
                             함께 하는 리추얼로 <span className="text-yellow-600 relative inline-block">
                                 연결성·지속성 강화
                                 <span className="absolute bottom-1 left-0 w-full h-3 bg-yellow-100 -z-10 bg-opacity-60"></span>

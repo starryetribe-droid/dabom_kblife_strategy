@@ -7,9 +7,9 @@ export const MarketContext: React.FC = () => {
         <SectionWrapper id="market-context" className="bg-white" pageNumber={4}>
             <div className="max-w-[1280px] mx-auto px-6">
                 <FadeIn>
-                    <div className="text-center mb-16">
+                    <div className="text-center mb-8">
                         <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-3 block">MARKET CONTEXT</span>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-kb-black leading-tight">
+                        <h2 className="apple-title text-[#1d1d1f] ">
                             지금, 현대인의 마음 건강
                         </h2>
                         <p className="mt-4 text-gray-500 text-lg">
@@ -18,7 +18,7 @@ export const MarketContext: React.FC = () => {
                     </div>
                 </FadeIn>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                     {/* Card 1 */}
                     <FadeIn delay={100}>
                         <div className="bg-white rounded-[2rem] p-10 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 h-full flex flex-col relative overflow-hidden group">
@@ -26,7 +26,7 @@ export const MarketContext: React.FC = () => {
                                 <div className="w-10 h-10 rounded-xl bg-yellow-50 text-kb-yellow flex items-center justify-center text-xl">
                                     <i className="fa-solid fa-chart-line"></i>
                                 </div>
-                                <h3 className="text-xl font-bold text-gray-900">우울증 환자 급증</h3>
+                                <h3 className="apple-subtitle text-[#1d1d1f] ">우울증 환자 급증</h3>
                             </div>
 
                             <div className="mb-6">
@@ -55,7 +55,7 @@ export const MarketContext: React.FC = () => {
                                 <div className="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center text-xl">
                                     <i className="fa-solid fa-brain"></i>
                                 </div>
-                                <h3 className="text-xl font-bold text-gray-900">성인 ADHD 진료비 폭증</h3>
+                                <h3 className="apple-subtitle text-[#1d1d1f] ">성인 ADHD 진료비 폭증</h3>
                             </div>
 
                             <div className="mb-6">
@@ -84,7 +84,7 @@ export const MarketContext: React.FC = () => {
                                 <div className="w-10 h-10 rounded-xl bg-orange-50 text-orange-500 flex items-center justify-center text-xl">
                                     <i className="fa-solid fa-mobile-screen"></i>
                                 </div>
-                                <h3 className="text-xl font-bold text-gray-900">디지털 과의존 위험군 증가</h3>
+                                <h3 className="apple-subtitle text-[#1d1d1f] ">디지털 과의존 위험군 증가</h3>
                             </div>
 
                             <div className="mb-6">

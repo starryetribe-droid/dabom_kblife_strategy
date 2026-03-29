@@ -12,7 +12,7 @@ export const DigitalDetox: React.FC = () => {
                             <i className="fa-solid fa-triangle-exclamation mr-2"></i>
                             2024년 스마트폰 과의존 위험군 22.9% 기록
                         </span>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-kb-black leading-tight mb-4">
+                        <h2 className="apple-title text-[#1d1d1f] mb-4">
                             <span className="text-yellow-600">디지털 디톡스</span> 퀘스트
                         </h2>
                         <p className="text-gray-500 text-[18px] max-w-2xl mx-auto word-keep">
@@ -22,7 +22,7 @@ export const DigitalDetox: React.FC = () => {
                     </div>
                 </FadeIn>
 
-                <div className="flex flex-col lg:flex-row gap-6 lg:gap-16 items-center justify-center w-full mb-8">
+                <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 items-center justify-center w-full mb-8">
                     {/* Left: Mobile App Screen (Swapped from Right) */}
                     <div className="w-full max-w-[380px] order-1">
                         <FadeIn delay={200}>
@@ -41,18 +41,18 @@ export const DigitalDetox: React.FC = () => {
                                     <button className="absolute left-6 text-gray-400">
                                         <i className="fa-solid fa-chevron-left"></i>
                                     </button>
-                                    <h3 className="font-bold text-gray-900">수면 측정 준비</h3>
+                                    <h3 className="apple-subtitle text-[#1d1d1f] ">수면 측정 준비</h3>
                                 </div>
 
                                 {/* Content */}
                                 <div className="px-8 mt-8 flex flex-col items-center text-center h-full">
-                                    <h2 className="text-2xl font-bold text-gray-900 leading-tight mb-12 word-keep">
+                                    <h2 className="apple-title text-[#1d1d1f] mb-6 word-keep">
                                         수면을 통한 하루 에너지 충전!<br />
                                         취침 준비 되셨나요?
                                     </h2>
 
                                     {/* Main Dial */}
-                                    <div className="relative w-48 h-48 mb-12">
+                                    <div className="relative w-48 h-48 mb-6">
                                         <div className="absolute inset-0 bg-purple-50 rounded-full"></div>
                                         <div className="absolute inset-4 bg-purple-100 rounded-full flex items-center justify-center shadow-inner">
                                             <div className="w-16 h-2 bg-purple-900 rounded-full"></div>
@@ -154,7 +154,7 @@ export const DigitalDetox: React.FC = () => {
                                         {/* Typography */}
                                         <div className="relative z-30 flex flex-col items-center justify-center h-full text-center mt-8">
                                             <div className="text-[#fbbf24] text-xs tracking-widest font-bold mb-2 uppercase">Dabom</div>
-                                            <h3 className="text-4xl font-black text-white leading-tight drop-shadow-lg font-serif">
+                                            <h3 className="apple-subtitle text-[#1d1d1f] drop-shadow-lg">
                                                 DEEP SLEEP<br />NOCTURNE
                                             </h3>
                                         </div>
@@ -190,7 +190,7 @@ export const DigitalDetox: React.FC = () => {
 
                 {/* Footer: Strategic Value */}
                 <FadeIn delay={600} className="w-full text-center mt-4">
-                    <h3 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight word-keep">
+                    <h3 className="apple-subtitle text-[#1d1d1f] word-keep">
                         '수면 시작 - 기상' 루틴을 앱과 함께하며<br />
                         <span className="text-yellow-600 relative inline-block mt-2">
                             DAU 및 체류 시간 확보

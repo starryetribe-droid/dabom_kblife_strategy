@@ -5,13 +5,13 @@ import { GlassCard } from '../ui/GlassCard';
 
 export const EcosystemStrategy: React.FC = () => {
   return (
-    <SectionWrapper id="ecosystem" className="bg-white py-16 md:py-24 overflow-hidden" pageNumber={14}>
+    <SectionWrapper id="ecosystem" className="bg-white py-6 overflow-hidden" pageNumber={14}>
       <div className="max-w-[1440px] mx-auto px-8 w-full flex flex-col items-center">
         {/* Header Section */}
-        <div className="text-center mb-20 md:mb-28">
+        <div className="text-center mb-6">
           <FadeIn>
             <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-3 block">Business Strategy Cycle</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-5 text-kb-black leading-tight">
+            <h2 className="apple-title text-[#1d1d1f] mb-5">
               <span className="text-kb-yellow">선순환 사이클</span>
             </h2>
             <p className="text-kb-gray font-medium text-[17px] md:text-[19px] max-w-2xl mx-auto break-keep leading-relaxed">
@@ -22,7 +22,7 @@ export const EcosystemStrategy: React.FC = () => {
         </div>
 
         {/* Cycle Canvas Area */}
-        <div className="relative w-full max-w-4xl h-[850px] md:h-[700px] flex items-center justify-center">
+        <div className="relative w-full max-w-4xl h-[600px] md:h-[550px] flex items-center justify-center">
 
           {/* Background Path SVG (Desktop Only) */}
           <div className="absolute inset-0 hidden lg:block pointer-events-none z-0">
@@ -90,7 +90,7 @@ export const EcosystemStrategy: React.FC = () => {
                 <div className="relative bg-gradient-to-br from-kb-yellow to-kb-gold text-white p-7 rounded-full border-[6px] border-white shadow-floating text-center flex flex-col items-center justify-center w-[200px] h-[200px] md:w-[240px] md:h-[240px]">
                   <div className="bg-kb-black/30 w-9 h-9 rounded-full flex items-center justify-center font-black italic mb-2 text-xs">02</div>
                   <i className="fa-solid fa-robot text-3xl mb-2"></i>
-                  <h3 className="text-[19px] md:text-[21px] font-black leading-tight">AI 챗봇 다봄이</h3>
+                  <h3 className="apple-subtitle text-[#1d1d1f] ] ]">AI 챗봇 다봄이</h3>
                   <div className="h-[1px] w-8 bg-white/30 my-2.5"></div>
                   <p className="text-yellow-100 font-bold text-[14px] leading-snug">능동적 개입</p>
                 </div>

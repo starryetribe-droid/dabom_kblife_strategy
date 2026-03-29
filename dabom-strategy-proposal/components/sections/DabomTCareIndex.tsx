@@ -14,10 +14,10 @@ export const DabomTCareIndex: React.FC = () => {
 
       <div className="max-w-[1440px] mx-auto px-6 w-full relative z-10">
         {/* Header Section */}
-        <div className="text-center mb-20">
+        <div className="text-center mb-6">
           <FadeIn>
             <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-4 block">Strategic Intelligence</span>
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-kb-black leading-tight tracking-tight break-keep">
+            <h2 className="apple-title text-[#1d1d1f] mb-6 break-keep">
               데이터를 넘어 <span className="text-kb-yellow">가치</span>로,<br />
               <span className="text-kb-yellow">다봄 마음 건강 통합 지수</span>
             </h2>
@@ -48,7 +48,7 @@ export const DabomTCareIndex: React.FC = () => {
               <div className="flex flex-col h-full">
                 <div className="mb-6 flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-kb-black text-white flex items-center justify-center font-black italic text-[15px]">01</div>
-                  <h3 className="text-2xl font-bold text-kb-black">Data Input</h3>
+                  <h3 className="apple-subtitle text-[#1d1d1f] ">Data Input</h3>
                 </div>
                 <GlassCard className="p-8 h-full bg-white/70 backdrop-blur-xl border-white shadow-soft hover:shadow-floating transition-all flex flex-col relative group">
                   <div className="space-y-4 mb-8">
@@ -82,7 +82,7 @@ export const DabomTCareIndex: React.FC = () => {
               <div className="flex flex-col h-full">
                 <div className="mb-6 flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-kb-black text-white flex items-center justify-center font-black italic text-[15px]">02</div>
-                  <h3 className="text-2xl font-bold text-kb-black">Logic</h3>
+                  <h3 className="apple-subtitle text-[#1d1d1f] ">Logic</h3>
                 </div>
                 <GlassCard className="p-8 h-full bg-gradient-to-br from-kb-black to-gray-800 text-white border-transparent shadow-floating flex flex-col relative overflow-hidden group">
                   {/* Decorative Neural Grid */}
@@ -94,7 +94,7 @@ export const DabomTCareIndex: React.FC = () => {
                   </div>
 
                   <div className="relative z-10 flex flex-col h-full">
-                    <div className="flex justify-between items-start mb-10">
+                    <div className="flex justify-between items-start mb-6">
                       <div className="w-14 h-14 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center text-2xl text-yellow-500 group-hover:scale-110 transition-transform duration-500">
                         <i className="fa-solid fa-microchip"></i>
                       </div>
@@ -134,7 +134,7 @@ export const DabomTCareIndex: React.FC = () => {
               <div className="flex flex-col h-full">
                 <div className="mb-6 flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-kb-black text-white flex items-center justify-center font-black italic text-[15px]">03</div>
-                  <h3 className="text-2xl font-bold text-kb-black">Output</h3>
+                  <h3 className="apple-subtitle text-[#1d1d1f] ">Output</h3>
                 </div>
                 <GlassCard className="p-8 h-full bg-white/70 backdrop-blur-xl border-white shadow-soft hover:shadow-floating transition-all flex flex-col">
 

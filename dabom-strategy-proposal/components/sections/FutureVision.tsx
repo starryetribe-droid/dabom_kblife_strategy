@@ -11,12 +11,12 @@ export const FutureVision: React.FC = () => {
                 <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] bg-green-100/40 rounded-full blur-[100px]"></div>
             </div>
 
-            <div className="max-w-7xl mx-auto px-6 w-full flex flex-col md:flex-row items-center gap-16 relative z-10">
+            <div className="max-w-7xl mx-auto px-6 w-full flex flex-col md:flex-row items-center gap-8 relative z-10">
                 {/* Text Content */}
                 <div className="flex-1 text-center md:text-left order-2 md:order-1">
                     <FadeIn>
                         <span className="text-orange-500 font-bold tracking-wider text-sm uppercase mb-2 block">Next Generation AI 다봄</span>
-                        <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight text-kb-black">
+                        <h2 className="apple-title text-[#1d1d1f] mb-6">
                             목소리로 교감하는<br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-500">Speech-to-Speech</span><br />
                             시니어 리빙 메이트, 다봄

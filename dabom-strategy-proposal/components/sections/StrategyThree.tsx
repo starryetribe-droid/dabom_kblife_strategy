@@ -6,7 +6,7 @@ export const StrategyThree: React.FC = () => {
   return (
     <SectionWrapper id="strategy-3" className="bg-gray-50" pageNumber={13}>
       <div className="max-w-7xl mx-auto px-6 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <FadeIn className="order-2 lg:order-1">
             {/* CSS Based Graphic for Holistic Health - Light Mode */}
             <div className="relative rounded-[3rem] overflow-hidden shadow-floating border border-gray-100 aspect-video bg-[#F0F6FF] flex items-center justify-center group">
@@ -52,8 +52,8 @@ export const StrategyThree: React.FC = () => {
 
           <FadeIn className="order-1 lg:order-2">
             <span className="text-kb-yellow font-bold tracking-wider text-sm uppercase mb-3 block">Strategy 03</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight text-kb-black">헬스케어와 멘탈케어의<br /><span className="text-kb-yellow">유기적 연결</span></h2>
-            <p className="text-lg text-kb-gray mb-10 leading-relaxed font-medium">
+            <h2 className="apple-title text-[#1d1d1f] mb-6">헬스케어와 멘탈케어의<br /><span className="text-kb-yellow">유기적 연결</span></h2>
+            <p className="text-lg text-kb-gray mb-6 leading-relaxed font-medium">
               신체 데이터와 멘탈 데이터의 단절을 잇습니다.
               <br /><br />
               파편화된 기능을 유기적으로 연결하여 앱 사용의 설득력을 높이고,<br />고객 몰입도를 극대화합니다.

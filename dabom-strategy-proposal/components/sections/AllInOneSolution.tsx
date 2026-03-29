@@ -116,17 +116,17 @@ export const AllInOneSolution: React.FC = () => {
             <div className="max-w-[1440px] mx-auto px-6 w-full flex flex-col items-center">
 
                 {/* Header */}
-                <div className="text-center mb-12 md:mb-16 w-full">
+                <div className="text-center mb-6 md:mb-8 w-full">
                     <FadeIn>
                         <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-3 block">
                             All-in-One Solution
                         </span>
-                        <h2 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight text-kb-black hidden md:block">
+                        <h2 className="apple-title text-[#1d1d1f] mb-6 hidden md:block">
                             전문성에 재미를 더한<br />
                             <span className="text-kb-yellow">올인원 멘탈케어 패키지</span>
                         </h2>
                         {/* Mobile simplified header */}
-                        <h2 className="text-3xl font-extrabold mb-4 leading-tight text-kb-black md:hidden">
+                        <h2 className="apple-title text-[#1d1d1f] mb-4 md:hidden">
                             전문성에 재미를 더한<br />
                             <span className="text-kb-yellow">올인원 패키지</span>
                         </h2>
@@ -139,7 +139,7 @@ export const AllInOneSolution: React.FC = () => {
                 </div>
 
                 {/* Split Layout Content */}
-                <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 w-full items-start">
+                <div className="flex flex-col lg:flex-row gap-8 lg:gap-6 w-full items-start">
 
                     {/* Left: Cards Grid */}
                     <div className="w-full lg:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-5">
@@ -177,10 +177,9 @@ export const AllInOneSolution: React.FC = () => {
                     {/* Right: Phone Preview (Sticky) */}
                     <div className="hidden lg:block w-1/2 sticky top-24">
                         <FadeIn delay={200} className="w-full flex justify-center">
-                            {/* Phone Frame - Updated to Thin White */}
-                            <div className="relative w-[360px] h-[780px] bg-white rounded-[3rem] shadow-2xl border-[8px] border-white ring-1 ring-gray-200 overflow-hidden transform transition-all duration-500">
-
-                                {/* Screen Content */}
+                            {/* Mockup Frame */}
+                            <div className="relative w-[300px] md:w-[320px] h-[580px] md:h-[650px] bg-white rounded-[3rem] shadow-2xl border-[8px] border-white ring-1 ring-gray-200 overflow-hidden transform transition-all duration-500">
+                                {/* Screen Area */}
                                 <div className="w-full h-full bg-[#FFFBF5] relative flex flex-col font-sans">
 
                                     {/* Status Bar Mock */}
@@ -197,7 +196,7 @@ export const AllInOneSolution: React.FC = () => {
                                     {activeIndex !== 0 && activeIndex !== 1 && activeIndex !== 2 && activeIndex !== 3 && activeIndex !== 4 && activeIndex !== 5 && (
                                         <div className="px-5 pb-4 flex items-center gap-3 z-20 bg-[#FFFBF5]">
                                             <i className="fa-solid fa-chevron-left text-lg text-gray-800"></i>
-                                            <h2 className="text-lg font-bold text-gray-900">
+                                            <h2 className="apple-title text-[#1d1d1f] ">
                                                 {cards[activeIndex].title}
                                             </h2>
                                         </div>

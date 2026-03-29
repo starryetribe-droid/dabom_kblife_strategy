@@ -13,26 +13,26 @@ interface ScenarioCardProps {
 }
 
 const ScenarioCard: React.FC<ScenarioCardProps> = ({ icon, iconColor, title, asIs, toBe, aiMessage }) => (
-  <GlassCard hoverEffect className="p-8 rounded-[2rem] flex flex-col h-full hover:bg-yellow-50/30 transition border border-transparent hover:border-kb-yellow/20">
-    <div className="flex items-center mb-6">
-      <div className={`w-12 h-12 rounded-2xl ${iconColor} flex items-center justify-center mr-4 text-xl shadow-sm`}>
+  <GlassCard hoverEffect className="p-5 md:p-6 rounded-[1.5rem] flex flex-col h-full hover:bg-yellow-50/30 transition border border-transparent hover:border-kb-yellow/20">
+    <div className="flex items-center mb-4">
+      <div className={`w-10 h-10 rounded-xl ${iconColor} flex items-center justify-center mr-3 text-lg shadow-sm`}>
         <i className={icon}></i>
       </div>
-      <h3 className="font-bold text-xl text-kb-black">{title}</h3>
+      <h3 className="apple-subtitle text-[18px] md:text-[20px] font-bold text-[#1d1d1f] leading-tight">{title}</h3>
     </div>
-    <div className="mb-8 text-[15px] space-y-4 flex-grow">
-      <div className="flex items-start bg-gray-50 p-3 rounded-xl">
-        <span className="text-gray-400 font-bold w-14 shrink-0 text-sm mt-0.5">AS-IS</span>
-        <span className="text-gray-500 font-medium leading-relaxed">{asIs}</span>
+    <div className="mb-4 text-[13px] md:text-[14px] space-y-2 flex-grow">
+      <div className="flex items-start bg-gray-50 p-2 md:p-3 rounded-lg">
+        <span className="text-gray-400 font-bold w-12 shrink-0 text-[12px] mt-0.5">AS-IS</span>
+        <span className="text-gray-500 font-medium leading-snug">{asIs}</span>
       </div>
-      <div className="flex items-start bg-yellow-50 p-3 rounded-xl">
-        <span className="text-kb-yellow font-bold w-14 shrink-0 text-sm mt-0.5">TO-BE</span>
-        <span className="text-kb-black font-medium leading-relaxed">{toBe}</span>
+      <div className="flex items-start bg-yellow-50 p-2 md:p-3 rounded-lg">
+        <span className="text-kb-yellow font-bold w-12 shrink-0 text-[12px] mt-0.5">TO-BE</span>
+        <span className="text-kb-black font-medium leading-snug">{toBe}</span>
       </div>
     </div>
-    <div className="bg-white p-5 rounded-2xl border border-gray-200 shadow-soft relative mt-auto">
-      <div className="absolute -top-3 left-4 bg-kb-yellow text-sm font-bold text-white px-3 py-1 rounded-full shadow-sm">AI 다봄</div>
-      <p className="text-[15px] text-kb-black font-medium leading-relaxed">"{aiMessage}"</p>
+    <div className="bg-white p-4 rounded-xl border border-gray-200 shadow-soft relative mt-auto">
+      <div className="absolute -top-3 left-3 bg-kb-yellow text-[12px] font-bold text-white px-2 py-0.5 rounded-full shadow-sm">AI 다봄</div>
+      <p className="text-[13px] md:text-[14px] text-kb-black font-medium leading-relaxed">"{aiMessage}"</p>
     </div>
   </GlassCard>
 );
@@ -41,15 +41,15 @@ export const Scenarios: React.FC = () => {
   return (
     <SectionWrapper id="scenarios" className="bg-white" pageNumber={14}>
       <div className="max-w-7xl mx-auto px-6 w-full">
-        <div className="text-center mb-12">
+        <div className="text-center mb-4">
           <FadeIn>
             <span className="text-kb-yellow font-bold tracking-wider text-sm uppercase mb-2 block">Scenarios</span>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-kb-black">유저 시나리오</h2>
-            <p className="text-kb-gray mt-3 font-medium text-base md:text-lg">Physical x Mental 데이터 결합 사례</p>
+            <h2 className="apple-title text-[#1d1d1f] ">유저 시나리오</h2>
+            <p className="text-kb-gray mt-2 font-medium text-base">Physical x Mental 데이터 결합 사례</p>
           </FadeIn>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
           <FadeIn delay={100} className="h-full">
             <ScenarioCard
               icon="fa-solid fa-shoe-prints"

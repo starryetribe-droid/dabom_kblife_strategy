@@ -53,9 +53,9 @@ export const Overview: React.FC = () => {
     return (
         <SectionWrapper id="overview" className="bg-[#545045]" pageNumber={2}>
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center">
-                <div className="text-center mb-16">
+                <div className="text-center mb-8">
                     <FadeIn>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-kb-yellow leading-tight">
+                        <h2 className="apple-title text-[#1d1d1f] ">
                             Overview
                         </h2>
                     </FadeIn>
@@ -73,7 +73,7 @@ export const Overview: React.FC = () => {
 
                                 <div className="mt-4">
                                     <span className="text-sm font-bold text-gray-400 mb-2 uppercase tracking-wider block">{item.part}</span>
-                                    <h3 className="text-xl font-extrabold text-kb-black mb-4 group-hover:text-kb-yellow transition-colors">
+                                    <h3 className="apple-subtitle text-[#1d1d1f] mb-4 group-hover: transition-colors">
                                         {item.title}
                                     </h3>
 

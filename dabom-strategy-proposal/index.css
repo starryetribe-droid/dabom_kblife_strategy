@@ -1,26 +1,27 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v3.2.1/dist/web/variable/pretendardvariable.css");
 @import "tailwindcss";
 
 @theme {
-  --color-kb-yellow: #FFBC00;
-  --color-kb-gold: #FFCC00;
-  --color-kb-bg: #F3F5F7;
-  --color-kb-white: #FFFFFF;
-  --color-kb-black: #191F28;
-  --color-kb-gray: #60584C;
-  --color-kb-lightGray: #8A8D8F;
-  --color-kb-accent: #FFF8E5;
+    --color-kb-yellow: #FFBC00;
+    --color-kb-gold: #FFCC00;
+    --color-kb-bg: #F3F5F7;
+    --color-kb-white: #FFFFFF;
+    --color-kb-black: #191F28;
+    --color-kb-gray: #60584C;
+    --color-kb-lightGray: #8A8D8F;
+    --color-kb-accent: #FFF8E5;
 
-  --font-sans: 'Pretendard', sans-serif;
+    --font-sans: 'Pretendard', sans-serif;
 
-  --radius-4xl: 2rem;
-  --radius-5xl: 2.5rem;
+    --radius-4xl: 2rem;
+    --radius-5xl: 2.5rem;
 
-  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.04);
-  --shadow-floating: 0 12px 40px rgba(0, 0, 0, 0.08);
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.04);
+    --shadow-floating: 0 12px 40px rgba(0, 0, 0, 0.08);
 }
 
 body {
-    background-color: var(--color-kb-accent);
+    background-color: #FBFBFD;
     margin: 0;
     padding: 0;
     color: var(--color-kb-black);
@@ -30,7 +31,83 @@ body {
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
+
 .no-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+@layer base {
+
+    html,
+    body {
+        font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif !important;
+    }
+}
+
+@layer components {
+
+    .apple-container {
+        max-width: 1770px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    /* Fluid typography to ensure it always fits on a single screen without clipping */
+    .apple-title {
+        font-size: 56px !important;
+        font-weight: 600 !important;
+        line-height: 1.1 !important;
+        letter-spacing: -0.015em !important;
+    }
+
+    .apple-subtitle {
+        font-size: 28px !important;
+        font-weight: 500 !important;
+        line-height: 1.2 !important;
+        letter-spacing: -0.01em !important;
+    }
+
+    .apple-body {
+        font-size: 19px !important;
+        font-weight: 400 !important;
+        line-height: 1.5 !important;
+        letter-spacing: -0.005em !important;
+    }
+
+    .apple-caption {
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        line-height: 1.4 !important;
+        letter-spacing: -0.01em !important;
+        color: #86868b !important;
+    }
+}
+
+/* =========================================
+   Automatic Presentation Page Numbering
+========================================= */
+body {
+    counter-reset: slide-page;
+    /* Initialize counter */
+}
+
+/* Apply this class to any section that should be counted and numbered */
+.slide-with-number {
+    counter-increment: slide-page;
+}
+
+/* Visual style for the automatic page number */
+.slide-with-number::after {
+    content: counter(slide-page);
+    position: absolute;
+    bottom: 30px;
+    right: 48px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #999;
+    z-index: 100;
+    pointer-events: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }

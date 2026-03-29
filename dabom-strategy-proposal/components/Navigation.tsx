@@ -35,23 +35,21 @@ export const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="fixed left-10 top-1/2 -translate-y-1/2 z-50 hidden xl:flex flex-col gap-8 select-none pointer-events-none">
-      {menuItems.map((item, index) => (
-        <a
-          key={index}
-          href={item.href}
-          onClick={(e) => handleClick(e, item.href)}
-          className="pointer-events-auto flex items-center gap-4 group transition-all duration-500"
-        >
-          {/* Minimal Line Indicator */}
-          <div className="w-6 h-[1px] bg-gray-200 group-hover:w-10 group-hover:bg-kb-yellow transition-all duration-500"></div>
-
-          {/* Label: Minimal Presence */}
-          <span className="text-[11px] font-bold text-gray-300 group-hover:text-kb-yellow transition-colors duration-500 tracking-tighter whitespace-nowrap">
-            {item.label}
-          </span>
-        </a>
-      ))}
+    <nav className="fixed top-0 left-0 w-full z-[100] bg-white/70 backdrop-blur-md border-b border-gray-200 shadow-[0_4px_20px_rgba(0,0,0,0.03)]">
+      <div className="w-full max-w-[1770px] mx-auto px-6 h-[60px] md:h-[70px] flex items-center justify-start lg:justify-center overflow-x-auto no-scrollbar pointer-events-auto gap-6 md:gap-8">
+        {menuItems.map((item, index) => (
+          <a
+            key={index}
+            href={item.href}
+            onClick={(e) => handleClick(e, item.href)}
+            className="group whitespace-nowrap transition-all duration-300"
+          >
+            <span className="text-[12px] md:text-[13px] font-medium text-[#86868b] group-hover:text-[#1d1d1f] transition-colors duration-300 tracking-[-0.01em]">
+              {item.label}
+            </span>
+          </a>
+        ))}
+      </div>
     </nav>
   );
 };

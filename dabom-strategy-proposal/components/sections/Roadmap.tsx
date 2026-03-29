@@ -46,9 +46,9 @@ export const Roadmap: React.FC = () => {
     <SectionWrapper id="roadmap" className="bg-white" pageNumber={25}>
       <div className="max-w-[1440px] mx-auto px-6 w-full">
         <FadeIn>
-          <div className="text-center mb-16">
+          <div className="text-center mb-8">
             <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">Roadmap</span>
-            <h2 className="text-3xl md:text-5xl font-extrabold mb-4 text-kb-black">추진 로드맵</h2>
+            <h2 className="apple-title text-[#1d1d1f] mb-4">추진 로드맵</h2>
             <p className="text-kb-gray font-medium text-lg md:text-xl">AI 멘탈케어 서비스 고도화 계획</p>
           </div>
         </FadeIn>
@@ -80,7 +80,7 @@ export const Roadmap: React.FC = () => {
                       <span className="text-[16px] font-bold text-kb-yellow uppercase tracking-wide">{step.phase}</span>
                     </div>
 
-                    <h3 className="text-2xl md:text-3xl font-bold text-kb-black mb-3 leading-tight break-keep">
+                    <h3 className="apple-subtitle text-[#1d1d1f] mb-3 break-keep">
                       {step.title}
                     </h3>
 

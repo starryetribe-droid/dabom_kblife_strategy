@@ -4,12 +4,12 @@ import { FadeIn } from '../ui/FadeIn';
 
 export const Footer: React.FC = () => {
   return (
-    <SectionWrapper id="footer" className="bg-kb-bg">
-      <div className="h-full flex flex-col items-center justify-between text-center py-20">
+    <SectionWrapper id="footer" hidePageNumber={true} className="bg-kb-bg">
+      <div className="h-full flex flex-col items-center justify-between text-center py-8">
         <div className="flex-grow flex flex-col justify-center items-center w-full">
           <FadeIn>
             <div className="mb-8">
-              <h2 className="text-5xl md:text-7xl font-extrabold text-kb-black tracking-tight mb-6">
+              <h2 className="apple-title text-[#1d1d1f] mb-6">
                 감사합니다
               </h2>
               <p className="text-xl md:text-2xl text-kb-gray font-medium">
