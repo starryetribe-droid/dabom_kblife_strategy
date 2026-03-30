@@ -1,7 +1,6 @@
 import React from 'react';
 import { FadeIn } from '../ui/FadeIn';
 import { SectionWrapper } from './SectionWrapper';
-import { GlassCard } from '../ui/GlassCard';
 
 import exp1 from '../../src/assets/images/expertise/expertise_1.png';
 import exp2 from '../../src/assets/images/expertise/expertise_2.png';
@@ -17,13 +16,13 @@ export const Expertise: React.FC = () => {
                 {/* Header */}
                 <div className="text-left mb-10">
                     <FadeIn>
-                        <span className="bg-[#1A1A1A] text-white px-4 py-1.5 rounded-full text-[13px] font-bold tracking-widest uppercase mb-6 inline-block">
+                        <span className="bg-[#1A1A1A] text-white px-4 py-1.5 rounded-full text-[16px] font-bold tracking-widest uppercase mb-6 inline-block">
                             Expertise
                         </span>
-                        <h2 className="apple-title text-[#111] leading-snug mb-4 tracking-tight">
+                        <h2 className="apple-title text-kb-black leading-snug mb-4 tracking-tight">
                             심리학 연구 근거와 특허기술 기반<br />AI 마음건강 케어
                         </h2>
-                        <p className="text-[#666] font-medium text-[17px] md:text-[19px] tracking-tight">
+                        <p className="text-kb-black font-medium text-[17px] md:text-[19px] tracking-tight">
                             전문적 데이터와 공인된 기술력으로 실질적인 변화를 만듭니다
                         </p>
                     </FadeIn>
@@ -39,7 +38,7 @@ export const Expertise: React.FC = () => {
 
                             <div className="flex flex-col items-center h-full">
                                 <div className="mb-4">
-                                    <span className="inline-block px-4 py-1 rounded-full border border-kb-yellow text-kb-black text-[13px] font-bold bg-white">
+                                    <span className="inline-block px-4 py-1 rounded-full border border-kb-yellow text-kb-black text-[16px] font-bold bg-white">
                                         출판
                                     </span>
                                 </div>
@@ -70,7 +69,7 @@ export const Expertise: React.FC = () => {
                                 {/* Patent Item 1 */}
                                 <div className="flex flex-col items-center">
                                     <div className="mb-4">
-                                        <span className="inline-block px-4 py-1 rounded-full border border-kb-yellow text-kb-black text-[13px] font-bold bg-white">
+                                        <span className="inline-block px-4 py-1 rounded-full border border-kb-yellow text-kb-black text-[16px] font-bold bg-white">
                                             등록
                                         </span>
                                     </div>
@@ -91,7 +90,7 @@ export const Expertise: React.FC = () => {
                                 {/* Patent Item 2 */}
                                 <div className="flex flex-col items-center">
                                     <div className="mb-4">
-                                        <span className="inline-block px-4 py-1 rounded-full border border-kb-yellow text-kb-black text-[13px] font-bold bg-white">
+                                        <span className="inline-block px-4 py-1 rounded-full border border-kb-yellow text-kb-black text-[16px] font-bold bg-white">
                                             등록
                                         </span>
                                     </div>
@@ -112,7 +111,7 @@ export const Expertise: React.FC = () => {
                                 {/* Patent Item 3 */}
                                 <div className="flex flex-col items-center">
                                     <div className="mb-4">
-                                        <span className="inline-block px-4 py-1 rounded-full border border-kb-yellow text-kb-black text-[13px] font-bold bg-white">
+                                        <span className="inline-block px-4 py-1 rounded-full border border-kb-yellow text-kb-black text-[16px] font-bold bg-white">
                                             출원
                                         </span>
                                     </div>
@@ -133,7 +132,7 @@ export const Expertise: React.FC = () => {
                                 {/* Patent Item 4 */}
                                 <div className="flex flex-col items-center">
                                     <div className="mb-4">
-                                        <span className="inline-block px-4 py-1 rounded-full border border-kb-yellow text-kb-black text-[13px] font-bold bg-white">
+                                        <span className="inline-block px-4 py-1 rounded-full border border-kb-yellow text-kb-black text-[16px] font-bold bg-white">
                                             출원
                                         </span>
                                     </div>

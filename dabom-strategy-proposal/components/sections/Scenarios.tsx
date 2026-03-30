@@ -40,16 +40,18 @@ const ScenarioCard: React.FC<ScenarioCardProps> = ({ icon, iconColor, title, asI
 export const Scenarios: React.FC = () => {
   return (
     <SectionWrapper id="scenarios" className="bg-white" pageNumber={14}>
-      <div className="max-w-7xl mx-auto px-6 w-full">
-        <div className="text-center mb-4">
+      <div className="max-w-[1640px] mx-auto px-10 w-full h-full flex flex-col justify-center">
+        {/* Header */}
+        <div className="text-center mb-10">
           <FadeIn>
-            <span className="text-kb-yellow font-bold tracking-wider text-sm uppercase mb-2 block">Scenarios</span>
-            <h2 className="apple-title text-[#1d1d1f] ">유저 시나리오</h2>
-            <p className="text-kb-gray mt-2 font-medium text-base">Physical x Mental 데이터 결합 사례</p>
+            <span className="bg-[#1A1A1A] text-white px-4 py-1.5 rounded-full text-[16px] font-bold tracking-widest uppercase mb-4 inline-block">Scenarios</span>
+            <h2 className="apple-title text-kb-black">유저 시나리오</h2>
+            <p className="text-kb-black mt-2 font-medium text-[18px]">Physical x Mental 데이터 결합 사례</p>
           </FadeIn>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+        {/* Scenario Cards Grid (2x2) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
           <FadeIn delay={100} className="h-full">
             <ScenarioCard
               icon="fa-solid fa-shoe-prints"

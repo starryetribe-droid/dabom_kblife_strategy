@@ -10,9 +10,9 @@ export const CoreService: React.FC = () => {
         {/* Section Header */}
         <div className="text-center mb-8">
           <FadeIn>
-            <span className="text-kb-yellow font-bold tracking-wider text-[15px] uppercase mb-2 block">Service Concept</span>
-            <h2 className="apple-title text-[#1d1d1f] ">AI 시니어 리빙 메이트</h2>
-            <p className="text-kb-gray font-medium mt-4 text-[18px]">초개인화된 데이터로 먼저 다가가는 능동형 케어</p>
+            <span className="text-kb-black font-bold tracking-wider text-[16px] uppercase mb-2 block">Service Concept</span>
+            <h2 className="apple-title text-kb-black ">AI 시니어 리빙 메이트</h2>
+            <p className="text-kb-black font-medium mt-4 text-[18px]">초개인화된 데이터로 먼저 다가가는 능동형 케어</p>
           </FadeIn>
         </div>
 
@@ -109,7 +109,7 @@ export const CoreService: React.FC = () => {
                   </div>
                   <div className="flex flex-col gap-1 max-w-[80%]">
                     <span className="text-[13px] text-gray-500 ml-1 font-medium">AI 다봄</span>
-                    <div className="bg-white p-3.5 rounded-2xl rounded-tl-none shadow-sm text-[15px] text-gray-800 leading-relaxed border border-gray-100">
+                    <div className="bg-white p-3.5 rounded-2xl rounded-tl-none shadow-sm text-[16px] text-gray-800 leading-relaxed border border-gray-100">
                       좋은 아침이에요, 삼성님! ☀️<br />
                       <span className="text-kb-yellow font-bold">3일동안 수면 패턴이 불규칙하시네요.</span> 몸은 좀 어떠세요?
                     </div>
@@ -119,7 +119,7 @@ export const CoreService: React.FC = () => {
                 {/* User Message */}
                 <div className="flex flex-row-reverse gap-3">
                   <div className="flex flex-col gap-1 max-w-[80%] items-end">
-                    <div className="bg-kb-yellow p-3.5 rounded-2xl rounded-tr-none shadow-sm text-[15px] text-white leading-relaxed">
+                    <div className="bg-kb-yellow p-3.5 rounded-2xl rounded-tr-none shadow-sm text-[16px] text-white leading-relaxed">
                       응, 중간에 자꾸 깨서 그런지<br />몸이 좀 찌뿌둥하네.. 😞
                     </div>
                   </div>
@@ -132,14 +132,14 @@ export const CoreService: React.FC = () => {
                   </div>
                   <div className="flex flex-col gap-1 max-w-[85%]">
                     <span className="text-[13px] text-gray-500 ml-1 font-medium">AI 다봄</span>
-                    <div className="bg-white p-3.5 rounded-2xl rounded-tl-none shadow-sm text-[15px] text-gray-800 leading-relaxed border border-gray-100">
+                    <div className="bg-white p-3.5 rounded-2xl rounded-tl-none shadow-sm text-[16px] text-gray-800 leading-relaxed border border-gray-100">
                       저런, 피곤하시겠어요.<br />
                       찌뿌둥한 몸을 깨우는 <strong>가벼운 스트레칭</strong>을 함께 해볼까요?<br />
                       기분 전환에도 도움이 될 거예요! 💪
                     </div>
                     {/* Action Button */}
                     <div className="mt-1 flex gap-2">
-                      <button className="bg-white border border-kb-yellow text-kb-yellow text-[15px] font-bold px-4 py-2 rounded-full shadow-sm hover:bg-yellow-50 transition">
+                      <button className="bg-white border border-kb-yellow text-kb-yellow text-[16px] font-bold px-4 py-2 rounded-full shadow-sm hover:bg-yellow-50 transition">
                         스트레칭 영상 보기
                       </button>
                     </div>

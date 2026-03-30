@@ -3,120 +3,164 @@ import { FadeIn } from '../ui/FadeIn';
 import { GlassCard } from '../ui/GlassCard';
 import { SectionWrapper } from './SectionWrapper';
 
+// 프로토타입 화면 실물 이미지 또는 플레이스홀더 컴포넌트
+const PhoneFrame: React.FC<{ label: string; bgColor?: string; stepLabel?: string; imageSrc?: string }> = ({ label, bgColor = "bg-gray-100", stepLabel, imageSrc }) => (
+  <div className="flex flex-col items-center gap-3">
+    {stepLabel && (
+      <span className="text-[15px] font-black text-kb-black text-center whitespace-nowrap">{stepLabel}</span>
+    )}
+    <div
+      className="relative rounded-[24px] bg-white shadow-xl border border-gray-200 overflow-hidden w-[185px]"
+      style={{ aspectRatio: '9/19.5' }}
+    >
+      {imageSrc ? (
+        <img 
+          src={imageSrc} 
+          alt={label} 
+          className="w-full h-full object-fill" 
+        />
+      ) : (
+        <>
+          {/* Status bar */}
+          <div className="bg-white px-3 pt-2 pb-1 flex justify-between items-center border-b border-gray-50">
+            <span className="text-[6px] font-bold text-gray-600">9:41</span>
+            <div className="flex gap-1 items-center">
+              <i className="fa-solid fa-signal text-[6px] text-gray-600"></i>
+              <i className="fa-solid fa-wifi text-[6px] text-gray-600"></i>
+              <i className="fa-solid fa-battery-full text-[6px] text-gray-600"></i>
+            </div>
+          </div>
+          {/* Screen content placeholder */}
+          <div className={`${bgColor} w-full flex-1 flex flex-col`}>
+            <div className="w-full h-full flex items-center justify-center p-4">
+              <span className="text-[10px] text-gray-400 text-center font-bold leading-relaxed">{label}</span>
+            </div>
+          </div>
+        </>
+      )}
+    </div>
+  </div>
+);
+
 export const BrainFitness: React.FC = () => {
   return (
-    <SectionWrapper id="brain-fitness" className="bg-white" pageNumber={7}>
-      <div className="max-w-[1640px] mx-auto px-10 w-full h-full flex flex-col justify-start pt-16 relative z-10">
+    <SectionWrapper id="brain-fitness" className="bg-white" pageNumber={14}>
+      <div className="max-w-[1640px] mx-auto px-10 w-full h-full flex flex-col justify-start pt-2 pb-2 relative z-10">
         {/* Section Header */}
-        <div className="text-left mb-10">
+        <div className="text-left mb-4">
           <FadeIn>
-            <span className="bg-[#1A1A1A] text-white px-4 py-1.5 rounded-full text-[13px] font-bold tracking-widest uppercase mb-6 inline-block">
+            <span className="bg-[#1A1A1A] text-white px-4 py-1.5 rounded-full text-[16px] font-bold tracking-widest uppercase mb-3 inline-block">
               Completeness · 두뇌 건강 운동
             </span>
-            <h2 className="apple-title text-[#111] leading-snug mb-4 tracking-tight">
+            <h2 className="apple-title text-kb-black leading-snug mb-2 tracking-tight">
               마음 건강의 빈틈을 채우는 마지막 퍼즐, <span className="text-kb-yellow">'두뇌건강운동'</span>
             </h2>
-            <p className="text-[#666] font-medium text-[17px] md:text-[19px] tracking-tight">
+            <p className="text-kb-black font-medium text-[17px] tracking-tight">
               인지 훈련이 우울감 개선을 돕는 '상호보완적 선순환'을 완성합니다.
             </p>
           </FadeIn>
         </div>
 
-        <div className="flex justify-center w-full">
-          {/* Right: Solution (6 Programs Grid) - Expanded to center */}
-          <FadeIn delay={200} className="w-full max-w-5xl">
-            <GlassCard className="p-8 bg-[#F3F5F7] border border-gray-200 relative overflow-hidden flex flex-col items-center">
-              <h3 className="apple-subtitle text-[#1d1d1f] mb-8 w-full border-b border-gray-200 pb-4">맞춤형 두뇌 건강 운동 프로그램 6종</h3>
+        <div className="flex flex-col gap-4 flex-1 min-h-0">
 
-              {/* Grid of Games */}
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-y-10 gap-x-12 w-full mb-10 py-4">
-                {/* Item 1 */}
-                <div className="flex flex-col items-center gap-3">
-                  <span className="text-[14px] text-gray-500 bg-white border border-gray-100 px-3 py-1 rounded-full shadow-sm whitespace-nowrap font-medium">기억력과 집중력</span>
-                  <div className="relative w-16 h-16 flex items-center justify-center my-2">
-                    <div className="absolute w-12 h-12 rounded-2xl bg-[#8DA548] rotate-12 translate-x-2 translate-y-2 opacity-90 shadow-sm"></div>
-                    <div className="absolute w-12 h-12 rounded-2xl bg-[#FF7E00] -rotate-6 -translate-x-1 -translate-y-1 opacity-90 shadow-sm flex items-center justify-center">
-                      <span className="text-3xl font-black text-white drop-shadow-md">1</span>
-                    </div>
-                  </div>
-                  <span className="text-[17px] font-extrabold text-kb-black text-center leading-tight">숫자 순서대로<br />맞추기</span>
-                </div>
+          {/* Top: 6 Programs Row */}
+          <FadeIn delay={200} className="w-full">
+            <GlassCard className="p-4 bg-[#F3F5F7] border border-gray-200 flex flex-col">
+              <div className="flex items-center justify-start gap-6 mb-4 border-b border-gray-200 pb-3">
+                <h3 className="font-bold text-[#1d1d1f] text-[15px] uppercase tracking-tighter shrink-0">두뇌 건강 운동 프로그램 6종</h3>
 
-                {/* Item 2 */}
-                <div className="flex flex-col items-center gap-3">
-                  <span className="text-[14px] text-gray-500 bg-white border border-gray-100 px-3 py-1 rounded-full shadow-sm whitespace-nowrap font-medium">작업 기억력</span>
-                  <div className="relative w-16 h-16 flex items-center justify-center my-2">
-                    <div className="absolute w-12 h-12 rounded-2xl bg-[#8DA548] -rotate-3 translate-x-2 translate-y-2 opacity-90 shadow-sm"></div>
-                    <div className="absolute w-12 h-12 rounded-2xl bg-[#FF7E00] rotate-6 -translate-x-1 -translate-y-1 opacity-90 shadow-sm flex items-center justify-center">
-                      <span className="text-3xl font-black text-white drop-shadow-md">9</span>
-                    </div>
-                  </div>
-                  <span className="text-[17px] font-extrabold text-kb-black text-center leading-tight">숫자 거꾸로<br />맞추기</span>
-                </div>
-
-                {/* Item 3 */}
-                <div className="flex flex-col items-center gap-3">
-                  <span className="text-[14px] text-gray-500 bg-white border border-gray-100 px-3 py-1 rounded-full shadow-sm whitespace-nowrap font-medium">언어 인식력</span>
-                  <div className="relative w-16 h-16 flex items-center justify-center my-2">
-                    <div className="absolute w-12 h-12 rounded-2xl bg-[#8DA548] rotate-45 translate-x-2 translate-y-1 opacity-90 shadow-sm"></div>
-                    <div className="absolute w-12 h-12 rounded-2xl bg-[#FF7E00] -rotate-12 -translate-x-1 -translate-y-1 opacity-90 shadow-sm flex items-center justify-center">
-                      <span className="text-3xl font-black text-white drop-shadow-md">A</span>
-                    </div>
-                  </div>
-                  <span className="text-[17px] font-extrabold text-kb-black text-center leading-tight">단어 바로<br />맞추기</span>
-                </div>
-
-                {/* Item 4 */}
-                <div className="flex flex-col items-center gap-3">
-                  <span className="text-[14px] text-gray-500 bg-white border border-gray-100 px-3 py-1 rounded-full shadow-sm whitespace-nowrap font-medium">언어 회상력</span>
-                  <div className="relative w-16 h-16 flex items-center justify-center my-2">
-                    <div className="absolute w-12 h-12 rounded-2xl bg-[#8DA548] rotate-12 translate-x-2 translate-y-1 opacity-90 shadow-sm"></div>
-                    <div className="absolute w-12 h-12 rounded-2xl bg-[#FF7E00] -rotate-12 -translate-x-1 -translate-y-1 opacity-90 shadow-sm flex items-center justify-center">
-                      <span className="text-3xl font-black text-white drop-shadow-md">A</span>
-                    </div>
-                  </div>
-                  <span className="text-[17px] font-extrabold text-kb-black text-center leading-tight">단어 회상하기</span>
-                </div>
-
-                {/* Item 5 */}
-                <div className="flex flex-col items-center gap-3">
-                  <span className="text-[14px] text-gray-500 bg-white border border-gray-100 px-3 py-1 rounded-full shadow-sm whitespace-nowrap font-medium">언어 분류력</span>
-                  <div className="relative w-16 h-16 flex items-center justify-center my-2">
-                    <div className="absolute w-12 h-12 rounded-2xl bg-[#8DA548] rotate-6 translate-x-2 translate-y-1 opacity-90 shadow-sm"></div>
-                    <div className="absolute w-12 h-12 rounded-full bg-[#FF7E00] -translate-x-2 -translate-y-2 opacity-90 shadow-sm flex items-center justify-center">
-                      <span className="text-3xl font-black text-white drop-shadow-md">A</span>
-                    </div>
-                  </div>
-                  <span className="text-[17px] font-extrabold text-kb-black text-center leading-tight">단어 분류하기</span>
-                </div>
-
-                {/* Item 6 */}
-                <div className="flex flex-col items-center gap-3">
-                  <span className="text-[14px] text-gray-500 bg-white border border-gray-100 px-3 py-1 rounded-full shadow-sm whitespace-nowrap font-medium">논리 기억력</span>
-                  <div className="relative w-16 h-16 flex items-center justify-center my-2">
-                    <div className="absolute w-12 h-12 rounded-2xl bg-[#FF7E00] -rotate-6 -translate-x-2 translate-y-1 opacity-90 shadow-sm"></div>
-                    <div className="absolute w-12 h-12 rounded-2xl rounded-bl-none bg-[#8DA548] rotate-12 translate-x-1 -translate-y-2 opacity-90 shadow-sm flex items-center justify-center">
-                      <i className="fa-solid fa-clover text-white text-2xl drop-shadow-md"></i>
-                    </div>
-                  </div>
-                  <span className="text-[17px] font-extrabold text-kb-black text-center leading-tight">이야기 기억하기</span>
-                </div>
-              </div>
-
-              {/* Auto Adjustment Info */}
-              <div className="mt-4 w-full bg-white rounded-[2rem] p-6 border border-yellow-100 shadow-sm flex items-center gap-6 shrink-0">
-                <div className="w-14 h-14 rounded-full bg-yellow-50 text-kb-yellow flex items-center justify-center shrink-0 shadow-sm">
-                  <i className="fa-solid fa-sliders text-2xl"></i>
-                </div>
-                <div className="flex-1">
-                  <h4 className="text-[18px] font-black text-kb-black mb-1">결과 데이터 기반 난이도 자동 조정</h4>
-                  <p className="text-[15px] text-gray-500 font-medium leading-relaxed">
-                    매회 훈련 결과를 분석하여 <span className="text-kb-yellow font-bold">개인별 인지 수준</span>에 맞는 최적의 난이도로 자동 상향/하향 조정됩니다.
+                {/* Auto Adjustment Info — integrated into header row for space */}
+                <div className="bg-white rounded-full px-4 py-1.5 border border-yellow-100 shadow-xs flex items-center gap-2">
+                  <i className="fa-solid fa-sliders text-kb-yellow text-sm"></i>
+                  <p className="text-[12px] text-gray-500 font-medium tracking-tighter">
+                    결과 데이터 기반 <span className="text-kb-yellow font-bold">난이도 자동 조정</span> 시스템 적용
                   </p>
                 </div>
               </div>
+
+              {/* Grid of Games — single row (6 cols) */}
+              <div className="grid grid-cols-6 gap-4 w-full py-2">
+                {[
+                  { label: "기억력/집중력", icon: "1", name: "숫자 순서대로\n맞추기", c1: "#8DA548", c2: "#FF7E00", rot1: "rotate-12 translate-x-1 translate-y-1", rot2: "-rotate-6 -translate-x-0.5 -translate-y-0.5" },
+                  { label: "작업 기억력", icon: "9", name: "숫자 거꾸로\n맞추기", c1: "#8DA548", c2: "#FF7E00", rot1: "-rotate-3 translate-x-1 translate-y-1", rot2: "rotate-6 -translate-x-0.5 -translate-y-0.5" },
+                  { label: "언어 인식력", icon: "A", name: "단어 바로\n맞추기", c1: "#8DA548", c2: "#FF7E00", rot1: "rotate-45 translate-x-1 translate-y-0.5", rot2: "-rotate-12 -translate-x-0.5 -translate-y-0.5" },
+                  { label: "언어 회상력", icon: "A", name: "단어 회상하기", c1: "#8DA548", c2: "#FF7E00", rot1: "rotate-12 translate-x-1 translate-y-0.5", rot2: "-rotate-12 -translate-x-0.5 -translate-y-0.5" },
+                  { label: "언어 분류력", icon: "A", name: "단어 분류하기", c1: "#8DA548", c2: "#FF7E00", rot1: "rotate-6 translate-x-1 translate-y-0.5", rot2: "-translate-x-1 -translate-y-1", isCircle: true },
+                  { label: "논리 기억력", icon: "🍀", name: "이야기 기억하기", c1: "#FF7E00", c2: "#8DA548", rot1: "-rotate-6 -translate-x-1 translate-y-0.5", rot2: "rotate-12 translate-x-0.5 -translate-y-1", isClover: true },
+                ].map((item, idx) => (
+                  <div key={idx} className="flex flex-col items-center gap-1.5">
+                    <span className="text-[11px] text-gray-500 bg-white border border-gray-100 px-2.5 py-0.5 rounded-full shadow-xs whitespace-nowrap font-medium tracking-tighter">{item.label}</span>
+                    <div className="relative w-10 h-10 flex items-center justify-center">
+                      <div className={`absolute w-8 h-8 ${item.isCircle ? 'rounded-full' : 'rounded-xl'} opacity-90 shadow-xs ${item.rot1}`} style={{ background: item.c1 }}></div>
+                      <div className={`absolute w-8 h-8 ${item.isClover ? 'rounded-xl rounded-bl-none' : 'rounded-xl'} opacity-90 shadow-xs flex items-center justify-center ${item.rot2}`} style={{ background: item.c2 }}>
+                        {item.isClover
+                          ? <i className="fa-solid fa-clover text-white text-sm drop-shadow-xs"></i>
+                          : <span className="text-base font-black text-white drop-shadow-xs">{item.icon}</span>
+                        }
+                      </div>
+                    </div>
+                    <span className="text-[13px] font-extrabold text-kb-black text-center leading-tight whitespace-pre-line tracking-tighter">{item.name}</span>
+                  </div>
+                ))}
+              </div>
             </GlassCard>
           </FadeIn>
+
+          {/* Bottom: Prototype Process Section */}
+          <FadeIn delay={300} className="w-full flex-1">
+            <div className="bg-[#FAFAFA] border border-gray-100 rounded-[32px] p-6 h-full flex flex-col shadow-inner">
+              {/* Phone Frames Row — centered and spread */}
+              <div className="flex items-start justify-center gap-10 flex-1 py-2">
+                {/* Phone 1 — overview */}
+                <PhoneFrame 
+                  label="두뇌 운동 개요 및 효과 안내 화면" 
+                  bgColor="bg-amber-50" 
+                  stepLabel="Step 1. 개요 안내" 
+                  imageSrc="/images/brain-fitness/step1.png"
+                />
+
+                {/* Separator arrow */}
+                <div className="flex flex-col items-center mt-28 px-2">
+                  <i className="fa-solid fa-arrow-right text-kb-yellow text-[26px] drop-shadow-sm"></i>
+                </div>
+
+                {/* Phone 2 — 방법 안내 */}
+                <PhoneFrame 
+                  label="진행 방법 설명 화면" 
+                  bgColor="bg-white" 
+                  stepLabel="Step 2. 방법 안내" 
+                  imageSrc="/images/brain-fitness/step2.png"
+                />
+
+                {/* Arrow */}
+                <div className="flex flex-col items-center mt-28 px-2">
+                  <i className="fa-solid fa-arrow-right text-kb-yellow text-[26px] drop-shadow-sm"></i>
+                </div>
+
+                {/* Phone 3 — 기억 단서 */}
+                <PhoneFrame 
+                  label="숫자 기억 단서 화면" 
+                  bgColor="bg-green-50" 
+                  stepLabel="Step 3. 기억 단서" 
+                  imageSrc="/images/brain-fitness/step3.png"
+                />
+
+                {/* Arrow */}
+                <div className="flex flex-col items-center mt-28 px-2">
+                  <i className="fa-solid fa-arrow-right text-kb-yellow text-[26px] drop-shadow-sm"></i>
+                </div>
+
+                {/* Phone 4 — 정답 입력 */}
+                <PhoneFrame 
+                  label="숫자 입력 결과 화면" 
+                  bgColor="bg-white" 
+                  stepLabel="Step 4. 정답 입력" 
+                  imageSrc="/images/brain-fitness/step4.png"
+                />
+              </div>
+            </div>
+          </FadeIn>
+
         </div>
       </div>
     </SectionWrapper>

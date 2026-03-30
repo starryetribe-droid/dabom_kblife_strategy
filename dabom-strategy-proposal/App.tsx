@@ -82,12 +82,12 @@ function App() {
           label="Part 3"
         />
         <ValueProposition />
-        <KeyPillars />
+        {/* <KeyPillars /> */}
         <CoreService />
-        <StrategyThree />
+        {/* <StrategyThree />
         <Scenarios />
         <DabomTCareIndex />
-        <RitualLife />
+        <RitualLife /> */}
         <Footer />
       </main>
 

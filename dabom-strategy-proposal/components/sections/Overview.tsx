@@ -55,7 +55,7 @@ export const Overview: React.FC = () => {
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center">
                 <div className="text-center mb-8">
                     <FadeIn>
-                        <h2 className="apple-title text-[#1d1d1f] ">
+                        <h2 className="apple-title text-kb-black ">
                             Overview
                         </h2>
                     </FadeIn>
@@ -72,12 +72,12 @@ export const Overview: React.FC = () => {
                                 <div className={`absolute top-0 left-0 w-full h-1 ${item.bg.replace('bg-', 'bg-gradient-to-r from-transparent via-')}-400 to-transparent opacity-50`}></div>
 
                                 <div className="mt-4">
-                                    <span className="text-sm font-bold text-gray-400 mb-2 uppercase tracking-wider block">{item.part}</span>
+                                    <span className="text-[16px] font-bold text-gray-400 mb-2 uppercase tracking-wider block">{item.part}</span>
                                     <h3 className="apple-subtitle text-[#1d1d1f] mb-4 group-hover: transition-colors">
                                         {item.title}
                                     </h3>
 
-                                    <p className="text-gray-500 font-medium leading-relaxed whitespace-pre-line text-[15px]">
+                                    <p className="text-gray-500 font-medium leading-relaxed whitespace-pre-line text-[16px] break-keep">
                                         {item.desc}
                                     </p>
                                 </div>

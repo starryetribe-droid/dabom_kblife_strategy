@@ -69,10 +69,10 @@ const BrandStory: React.FC = () => {
                         className="mb-8 md:mb-6"
                     >
                         <img src="/images/brand-story-script.png" alt="Brand Story" className="max-w-[240px] md:max-w-[340px] mx-auto -mb-8 md:-mb-6 relative z-0 opacity-90" />
-                        <h2 className="apple-title text-[#1d1d1f] ] mb-2 relative z-10">
+                        <h2 className="apple-title text-kb-black ] mb-2 relative z-10">
                             다시 온<br className="md:hidden" /> 나의 봄, 다봄
                         </h2>
-                        <p className="text-[#8D6E63] text-lg md:text-2xl font-medium tracking-wide font-serif italic relative z-10">
+                        <p className="text-kb-black text-lg md:text-2xl font-medium tracking-wide font-serif italic relative z-10">
                             "나의 두 번째 비상을 준비하며"
                         </p>
                     </motion.div>
