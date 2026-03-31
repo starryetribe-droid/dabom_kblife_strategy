@@ -164,7 +164,7 @@ export const AutobiographicalMemory: React.FC = () => {
                                     </div>
                                     <p className="text-[#666] text-[16px] font-medium leading-relaxed">
                                         고통스러웠던 과거까지 내 인생의 일부로 수용 <br />
-                                        <i className="fa-solid fa-arrow-right text-gray-300 mx-1"></i> 인생 전반에 대한 통합감으로 우울감을 근본적으로 낮추게 됨
+                                        <i className="fa-solid fa-arrow-right text-gray-300 mx-1"></i> 인생 전반에 대한 통합감으로 근본적인 우울감 개선
                                     </p>
                                 </div>
                             </div>

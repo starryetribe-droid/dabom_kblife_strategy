@@ -108,9 +108,22 @@ export const BrainFitness: React.FC = () => {
 
           {/* Bottom: Prototype Process Section */}
           <FadeIn delay={300} className="w-full flex-1">
-            <div className="bg-[#FAFAFA] border border-gray-100 rounded-[32px] p-6 h-full flex flex-col shadow-inner">
+            <div className="bg-[#FAFAFA] border border-gray-100 rounded-[32px] p-5 h-full flex flex-col shadow-inner">
+              
+              {/* Added Emphasis Box */}
+              <div className="flex justify-center mb-4">
+                <div className="bg-white border-2 border-kb-yellow px-8 py-2.5 rounded-full shadow-sm flex items-center gap-3">
+                  <div className="w-6 h-6 rounded-full bg-kb-yellow text-white flex items-center justify-center shrink-0">
+                    <i className="fa-solid fa-check text-xs"></i>
+                  </div>
+                  <span className="text-kb-black font-black text-[17px] tracking-tight">
+                    진행 방법 학습부터 두뇌 운동까지 스스로, <span className="text-kb-yellow">시니어 최적화 UI/UX</span>
+                  </span>
+                </div>
+              </div>
+
               {/* Phone Frames Row — centered and spread */}
-              <div className="flex items-start justify-center gap-10 flex-1 py-2">
+              <div className="flex items-start justify-center gap-10 flex-1 py-1">
                 {/* Phone 1 — overview */}
                 <PhoneFrame 
                   label="두뇌 운동 개요 및 효과 안내 화면" 
