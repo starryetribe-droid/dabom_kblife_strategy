@@ -45,37 +45,27 @@ export const Gamification: React.FC = () => {
                                     <div className="bg-white rounded-2xl p-5 border border-green-100 shadow-sm w-full">
                                         <div className="flex items-center gap-4">
                                             <div className="bg-blue-500 text-white px-4 py-2 rounded-xl text-[15px] font-black shadow-sm shrink-0">물방울 적립</div>
-                                            <p className="text-[16px] text-gray-700 font-medium tracking-tight">다봄이와 기억 찾기, 마음 건강 검진, 두뇌 건강 운동 참여 시 물방울 적립</p>
+                                            <p className="text-[16px] text-gray-700 font-medium tracking-tight">다봄이와 기억 찾기, 마음 건강 검진,<br />두뇌 건강 운동 참여 시 물방울 적립</p>
                                         </div>
                                     </div>
 
-                                    <div className="flex justify-center py-1.5"><i className="fa-solid fa-chevron-down text-gray-300 text-[14px]"></i></div>
+                                    <div className="flex justify-center py-3"><i className="fa-solid fa-chevron-down text-gray-300 text-[14px]"></i></div>
 
                                     {/* Step 2: 캐릭터 성장 */}
                                     <div className="bg-white rounded-2xl p-5 border border-green-100 shadow-sm w-full">
                                         <div className="flex items-center gap-4">
                                             <div className="bg-green-600 text-white px-4 py-2 rounded-xl text-[15px] font-black shadow-sm shrink-0">캐릭터 성장</div>
-                                            <p className="text-[16px] text-gray-700 font-medium tracking-tight">씨앗 → 새싹 → 어린 잎 → 무성한 잎으로 단계별 성장</p>
+                                            <p className="text-[16px] text-gray-700 font-medium tracking-tight">씨앗 → 새싹 → 어린 잎 → 무성한 잎으로<br />단계별 성장</p>
                                         </div>
                                     </div>
 
-                                    <div className="flex justify-center py-1.5"><i className="fa-solid fa-chevron-down text-gray-300 text-[14px]"></i></div>
+                                    <div className="flex justify-center py-3"><i className="fa-solid fa-chevron-down text-gray-300 text-[14px]"></i></div>
 
                                     {/* Step 3: 꽃 & 포인트 */}
                                     <div className="bg-white rounded-2xl p-5 border border-green-100 shadow-sm w-full">
                                         <div className="flex items-center gap-4">
                                             <div className="bg-orange-500 text-white px-4 py-2 rounded-xl text-[15px] font-black shadow-sm shrink-0">꽃 & 포인트</div>
-                                            <p className="text-[16px] text-gray-700 font-medium tracking-tight">최종 성장 시 <b>'꽃'</b>과 <b>'포인트'</b> 리워드로 동기 부여 및 습관 형성</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex justify-center py-1.5"><i className="fa-solid fa-chevron-down text-gray-300 text-[14px]"></i></div>
-
-                                    {/* Step 4: AI 정원 */}
-                                    <div className="bg-[#F0FFF4] rounded-2xl p-5 border-2 border-green-200 shadow-sm w-full">
-                                        <div className="flex items-center gap-4">
-                                            <div className="bg-[#1A1A1A] text-white px-4 py-2 rounded-xl text-[15px] font-black shadow-sm shrink-0">AI 정원</div>
-                                            <p className="text-[16px] text-gray-700 font-medium tracking-tight"><b>AI 정원 이미지 생성</b>으로 나만의 정원 꾸미기 재미 요소</p>
+                                            <p className="text-[16px] text-gray-700 font-medium tracking-tight">최종 성장 시 <b>'꽃'</b>과 <b>'포인트'</b> 리워드로<br />동기 부여 및 습관 형성</p>
                                         </div>
                                     </div>
                                 </div>
