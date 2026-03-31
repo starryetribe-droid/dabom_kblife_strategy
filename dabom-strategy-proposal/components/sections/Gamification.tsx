@@ -6,9 +6,9 @@ import { SectionWrapper } from './SectionWrapper';
 export const Gamification: React.FC = () => {
     return (
         <SectionWrapper id="gamification" className="bg-white relative overflow-hidden" pageNumber={15}>
-            <div className="max-w-[1640px] mx-auto px-10 w-full h-full flex flex-col justify-start pt-16 relative z-10">
+            <div className="max-w-[1640px] mx-auto px-10 w-full h-full flex flex-col justify-start pt-8 relative z-10">
                 {/* Section Header */}
-                <div className="text-left mb-10">
+                <div className="text-left mb-4">
                     <FadeIn>
                         <span className="bg-[#1A1A1A] text-white px-4 py-1.5 rounded-full text-[13px] font-bold tracking-widest uppercase mb-6 inline-block">
                             Engagement · 지속성 강화
@@ -22,12 +22,12 @@ export const Gamification: React.FC = () => {
                     </FadeIn>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch flex-1 pb-10">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch flex-1 pb-4">
 
                     {/* Left: 기억의 정원 */}
                     <FadeIn delay={100} className="h-full">
-                        <GlassCard className="p-8 h-full bg-[#F8FAF8] border border-green-100 flex flex-col">
-                            <div className="flex items-center gap-4 mb-8">
+                        <GlassCard className="p-6 h-full bg-[#F8FAF8] border border-green-100 flex flex-col">
+                            <div className="flex items-center gap-4 mb-4">
                                 <div className="w-12 h-12 rounded-full bg-green-600 flex items-center justify-center text-white text-2xl">
                                     <i className="fa-solid fa-seedling"></i>
                                 </div>
@@ -37,42 +37,52 @@ export const Gamification: React.FC = () => {
                                 </div>
                             </div>
 
-                            {/* Content: Flow (left) + Prototype (right) */}
-                            <div className="flex gap-6 flex-1 items-center">
-                                {/* Garden Growth Vertical Flow */}
-                                <div className="flex-1 flex flex-col gap-0">
+                            {/* Content: Flow (left) + Prototype (right) — Rebalanced for single-screen fit */}
+                            <div className="flex gap-4 flex-1 items-center">
+                                {/* Garden Growth Vertical Flow — Wider cards */}
+                                <div className="flex-[1.3] flex flex-col gap-0 min-w-0">
                                     {/* Step 1: 물방울 적립 */}
-                                    <div className="bg-white rounded-2xl p-5 border border-green-100 shadow-sm w-full">
-                                        <div className="flex items-center gap-4">
-                                            <div className="bg-blue-500 text-white px-4 py-2 rounded-xl text-[15px] font-black shadow-sm shrink-0">물방울 적립</div>
-                                            <p className="text-[16px] text-gray-700 font-medium tracking-tight">다봄이와 기억 찾기, 마음 건강 검진,<br />두뇌 건강 운동 참여 시 물방울 적립</p>
+                                    <div className="bg-white rounded-2xl p-4 border border-green-100 shadow-sm w-[420px]">
+                                        <div className="flex flex-col items-center text-center gap-2">
+                                            <div className="bg-blue-500 text-white px-4 py-2 rounded-xl text-[15px] font-black shadow-sm w-fit">물방울 적립</div>
+                                            <p className="text-[16px] text-gray-700 font-medium tracking-tight leading-snug">다봄이와 기억 찾기, 마음 건강 검진,<br />두뇌 건강 운동 참여 시 물방울 적립</p>
                                         </div>
                                     </div>
 
-                                    <div className="flex justify-center py-3"><i className="fa-solid fa-chevron-down text-gray-300 text-[14px]"></i></div>
+                                    <div className="flex justify-center py-2"><i className="fa-solid fa-chevron-down text-gray-300 text-[14px]"></i></div>
 
                                     {/* Step 2: 캐릭터 성장 */}
-                                    <div className="bg-white rounded-2xl p-5 border border-green-100 shadow-sm w-full">
-                                        <div className="flex items-center gap-4">
-                                            <div className="bg-green-600 text-white px-4 py-2 rounded-xl text-[15px] font-black shadow-sm shrink-0">캐릭터 성장</div>
+                                    <div className="bg-white rounded-2xl p-4 border border-green-100 shadow-sm w-[420px]">
+                                        <div className="flex flex-col items-center text-center gap-2">
+                                            <div className="bg-green-600 text-white px-4 py-2 rounded-xl text-[15px] font-black shadow-sm w-fit">캐릭터 성장</div>
                                             <p className="text-[16px] text-gray-700 font-medium tracking-tight">씨앗 → 새싹 → 어린 잎 → 무성한 잎으로<br />단계별 성장</p>
                                         </div>
                                     </div>
 
-                                    <div className="flex justify-center py-3"><i className="fa-solid fa-chevron-down text-gray-300 text-[14px]"></i></div>
+                                    <div className="flex justify-center py-2"><i className="fa-solid fa-chevron-down text-gray-300 text-[14px]"></i></div>
 
                                     {/* Step 3: 꽃 & 포인트 */}
-                                    <div className="bg-white rounded-2xl p-5 border border-green-100 shadow-sm w-full">
-                                        <div className="flex items-center gap-4">
-                                            <div className="bg-orange-500 text-white px-4 py-2 rounded-xl text-[15px] font-black shadow-sm shrink-0">꽃 & 포인트</div>
+                                    <div className="bg-white rounded-2xl p-4 border border-green-100 shadow-sm w-[420px]">
+                                        <div className="flex flex-col items-center text-center gap-2">
+                                            <div className="bg-orange-500 text-white px-4 py-2 rounded-xl text-[15px] font-black shadow-sm w-fit">꽃 & 포인트</div>
                                             <p className="text-[16px] text-gray-700 font-medium tracking-tight">최종 성장 시 <b>'꽃'</b>과 <b>'포인트'</b> 리워드로<br />동기 부여 및 습관 형성</p>
                                         </div>
                                     </div>
                                 </div>
 
-                                {/* Prototype Mockup */}
-                                <div className="w-[200px] md:w-[220px] h-[400px] md:h-[440px] bg-white border border-gray-200 rounded-[2.5rem] shadow-xl shrink-0 flex items-center justify-center text-gray-300 text-[14px] font-bold">
-                                    프로토타입
+                                {/* Prototype Mockup — Reverted to single screen for clean layout */}
+                                <div className="flex-1 flex justify-center">
+                                    <div
+                                        className="h-[480px] md:h-[600px] shadow-2xl overflow-hidden border-2 border-gray-200 bg-white shrink-0 relative flex items-center justify-center transition-all hover:scale-[1.02] duration-500"
+                                        style={{ borderRadius: '27px' }}
+                                    >
+                                        <img
+                                            src="/images/gamification/garden-proto.png"
+                                            className="h-full w-auto object-contain"
+                                            style={{ borderRadius: '25px' }} // Slightly less than container to match inside
+                                            alt="기억의 정원 프로토타입"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </GlassCard>
@@ -80,8 +90,8 @@ export const Gamification: React.FC = () => {
 
                     {/* Right: 사진첩 */}
                     <FadeIn delay={200} className="h-full">
-                        <GlassCard className="p-8 h-full bg-[#FFFBF5] border border-orange-100 flex flex-col">
-                            <div className="flex items-center gap-4 mb-8">
+                        <GlassCard className="p-6 h-full bg-[#FFFBF5] border border-orange-100 flex flex-col">
+                            <div className="flex items-center gap-4 mb-4">
                                 <div className="w-12 h-12 rounded-full bg-[#FF7E00] flex items-center justify-center text-white text-2xl">
                                     <i className="fa-solid fa-images"></i>
                                 </div>
@@ -93,9 +103,9 @@ export const Gamification: React.FC = () => {
 
                             <div className="grid grid-cols-1 md:grid-cols-1 gap-4 flex-1">
                                 <div className="flex gap-6 items-center">
-                                    <div className="flex-1 space-y-4">
+                                    <div className="flex-1 space-y-2">
                                         {/* Feature 1 */}
-                                        <div className="bg-white rounded-2xl p-5 border border-orange-50 shadow-sm flex items-center gap-5">
+                                        <div className="bg-white rounded-2xl p-3 border border-orange-50 shadow-sm flex items-center gap-4">
                                             <div className="w-12 h-12 rounded-xl bg-orange-50 text-orange-500 flex items-center justify-center text-xl shrink-0">
                                                 <i className="fa-solid fa-camera-retro"></i>
                                             </div>
@@ -105,7 +115,7 @@ export const Gamification: React.FC = () => {
                                             </div>
                                         </div>
                                         {/* Feature 2 */}
-                                        <div className="bg-white rounded-2xl p-5 border border-orange-50 shadow-sm flex items-center gap-5">
+                                        <div className="bg-white rounded-2xl p-3 border border-orange-50 shadow-sm flex items-center gap-4">
                                             <div className="w-12 h-12 rounded-xl bg-red-50 text-red-500 flex items-center justify-center text-xl shrink-0">
                                                 <i className="fa-solid fa-bell"></i>
                                             </div>
@@ -115,7 +125,7 @@ export const Gamification: React.FC = () => {
                                             </div>
                                         </div>
                                         {/* Feature 3 */}
-                                        <div className="bg-white rounded-2xl p-5 border border-orange-50 shadow-sm flex items-center gap-5">
+                                        <div className="bg-white rounded-2xl p-3 border border-orange-50 shadow-sm flex items-center gap-4">
                                             <div className="w-12 h-12 rounded-xl bg-cyan-50 text-cyan-500 flex items-center justify-center text-xl shrink-0">
                                                 <i className="fa-solid fa-star"></i>
                                             </div>
@@ -127,8 +137,17 @@ export const Gamification: React.FC = () => {
                                     </div>
 
                                     {/* Placeholder for Photo Album Mockup */}
-                                    <div className="w-[200px] h-[360px] md:w-[240px] md:h-[420px] bg-white border border-gray-200 rounded-[2.5rem] shadow-xl shrink-0 flex items-center justify-center text-gray-300 text-[14px] font-bold">
-                                        사진첩 프로토타입
+                                    {/* Photo Album Prototype Mockup — Updated with real image */}
+                                    <div 
+                                        className="h-[360px] md:h-[480px] shadow-2xl overflow-hidden border-2 border-gray-200 bg-white shrink-0 relative flex items-center justify-center transition-all hover:scale-[1.02] duration-500"
+                                        style={{ borderRadius: '27px' }}
+                                    >
+                                        <img 
+                                            src="/images/gamification/photo-album-proto.png" 
+                                            className="h-full w-auto object-contain" 
+                                            style={{ borderRadius: '25px' }} // Slightly less than container to match inside
+                                            alt="사진첩 프로토타입" 
+                                        />
                                     </div>
                                 </div>
                             </div>

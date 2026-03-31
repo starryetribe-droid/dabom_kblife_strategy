@@ -17,6 +17,7 @@ import { BidirectionalCorrelation } from './components/sections/BidirectionalCor
 import { BrainFitness } from './components/sections/BrainFitness';
 import { Gamification } from './components/sections/Gamification';
 import { ValueProposition } from './components/sections/ValueProposition';
+import { IntegrationFlexibility } from './components/sections/IntegrationFlexibility';
 
 import { Footer } from './components/sections/Footer';
 import { RitualLife } from './components/sections/RitualLife';
@@ -82,6 +83,7 @@ function App() {
           label="Part 3"
         />
         <ValueProposition />
+        <IntegrationFlexibility />
         {/* <KeyPillars /> */}
         <CoreService />
         {/* <StrategyThree />
