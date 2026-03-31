@@ -5,7 +5,7 @@ import { SectionWrapper } from './SectionWrapper';
 
 export const CoreService: React.FC = () => {
   return (
-    <SectionWrapper id="core-service" className="bg-white" pageNumber={10}>
+    <SectionWrapper id="core-service" className="bg-white" pageNumber={13}>
       <div className="max-w-7xl mx-auto px-6 w-full">
         {/* Section Header */}
         <div className="text-center mb-8">

@@ -18,6 +18,7 @@ import { BrainFitness } from './components/sections/BrainFitness';
 import { Gamification } from './components/sections/Gamification';
 import { ValueProposition } from './components/sections/ValueProposition';
 import { IntegrationFlexibility } from './components/sections/IntegrationFlexibility';
+import { AutobiographicalMemoryScenario } from './components/sections/AutobiographicalMemoryScenario';
 
 import { Footer } from './components/sections/Footer';
 import { RitualLife } from './components/sections/RitualLife';
@@ -83,6 +84,7 @@ function App() {
           label="Part 3"
         />
         <ValueProposition />
+        <AutobiographicalMemoryScenario />
         <IntegrationFlexibility />
         {/* <KeyPillars /> */}
         <CoreService />
