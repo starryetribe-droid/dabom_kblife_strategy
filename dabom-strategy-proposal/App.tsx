@@ -27,6 +27,7 @@ import { BrandConcept } from './components/sections/BrandConcept';
 import { ClinicalTestResult } from './components/sections/ClinicalTestResult';
 import { ExpertiseProfessors } from './components/sections/ExpertiseProfessors';
 import AutobiographicalMemory from './components/sections/AutobiographicalMemory';
+import AutobiographicalMemoryScenario from './components/sections/AutobiographicalMemoryScenario';
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
           label="Part. 2"
         />
         <AutobiographicalMemory />
+        <AutobiographicalMemoryScenario />
         <ClinicalEvidence />
         <MentalHealthCheckup />
         <BidirectionalCorrelation />
