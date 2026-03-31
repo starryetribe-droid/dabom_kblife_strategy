@@ -14,7 +14,7 @@ export const IntegrationFlexibility: React.FC = () => {
     const lightBgGray = "#F1F3F5";
 
     return (
-        <SectionWrapper id="integration-flexibility" className="bg-white relative overflow-hidden" pageNumber={12}>
+        <SectionWrapper id="integration-flexibility" className="bg-white relative overflow-hidden" pageNumber={22}>
             <div className="max-w-[1640px] mx-auto px-10 w-full h-full flex flex-col justify-start pt-12 relative z-10">
                 {/* Section Header */}
                 <div className="text-center mb-12">

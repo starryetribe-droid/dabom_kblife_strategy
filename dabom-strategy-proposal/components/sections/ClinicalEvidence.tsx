@@ -5,7 +5,7 @@ import findingMemoriesImg from '../../src/assets/finding_memories_header_or_full
 
 export const ClinicalEvidence: React.FC = () => {
   return (
-    <SectionWrapper id="clinical-evidence" className="bg-white relative overflow-hidden" pageNumber={4}>
+    <SectionWrapper id="clinical-evidence" className="bg-white relative overflow-hidden" pageNumber={15}>
       {/* Background Accent */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-slate-50/50 -z-10 hidden lg:block"></div>
 

@@ -4,7 +4,7 @@ import { SectionWrapper } from './SectionWrapper';
 
 export const BidirectionalCorrelation: React.FC = () => {
     return (
-        <SectionWrapper id="bidirectional-correlation" className="bg-[#F8FAFC]" pageNumber={9}>
+        <SectionWrapper id="bidirectional-correlation" className="bg-[#F8FAFC]" pageNumber={17}>
             <div className="max-w-[1640px] mx-auto px-10 w-full h-full flex flex-col justify-start pt-16 relative z-10">
 
                 {/* Header */}

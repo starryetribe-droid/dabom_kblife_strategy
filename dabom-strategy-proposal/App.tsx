@@ -68,6 +68,7 @@ function App() {
           label="Part. 2"
         />
         <AutobiographicalMemory />
+        <AutobiographicalMemoryScenario />
         <ClinicalEvidence />
         <MentalHealthCheckup />
         <BidirectionalCorrelation />
@@ -79,12 +80,11 @@ function App() {
           id="interim-3"
           title="KB골든라이프와\n다봄의 만남"
           description="시니어 케어는 마음까지 확장되고,\n고객 데이터는 밀도가 높아집니다."
-          pageNumber={9}
+          pageNumber={20}
           theme="blue"
           label="Part 3"
         />
         <ValueProposition />
-        <AutobiographicalMemoryScenario />
         <IntegrationFlexibility />
         {/* <KeyPillars /> */}
         <CoreService />

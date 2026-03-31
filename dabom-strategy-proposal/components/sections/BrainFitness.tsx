@@ -44,7 +44,7 @@ const PhoneFrame: React.FC<{ label: string; bgColor?: string; stepLabel?: string
 
 export const BrainFitness: React.FC = () => {
   return (
-    <SectionWrapper id="brain-fitness" className="bg-white" pageNumber={14}>
+    <SectionWrapper id="brain-fitness" className="bg-white" pageNumber={18}>
       <div className="max-w-[1640px] mx-auto px-10 w-full h-full flex flex-col justify-start pt-2 pb-2 relative z-10">
         {/* Section Header */}
         <div className="text-left mb-4">

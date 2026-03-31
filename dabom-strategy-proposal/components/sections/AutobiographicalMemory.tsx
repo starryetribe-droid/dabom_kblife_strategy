@@ -4,7 +4,7 @@ import { SectionWrapper } from './SectionWrapper';
 
 export const AutobiographicalMemory: React.FC = () => {
     return (
-        <SectionWrapper id="autobiographical-memory" className="bg-white" pageNumber={7}>
+        <SectionWrapper id="autobiographical-memory" className="bg-white" pageNumber={13}>
             <div className="max-w-[1640px] mx-auto px-10 w-full flex flex-col justify-center h-full relative z-10">
 
                 {/* Header */}

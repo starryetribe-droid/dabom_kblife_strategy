@@ -436,7 +436,7 @@ export const AutobiographicalMemoryScenario: React.FC = () => {
     };
 
     return (
-        <SectionWrapper id="scenario-slide" className={currentSceneData.bg} pageNumber={11}>
+        <SectionWrapper id="scenario-slide" className={currentSceneData.bg} pageNumber={14}>
             <AnimatePresence mode="wait">
                 <motion.div 
                     key={scene}

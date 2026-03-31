@@ -7,7 +7,7 @@ import reportSlide1 from '../../src/assets/images/mental-health/slide1.png';
 
 export const MentalHealthCheckup: React.FC = () => {
   return (
-    <SectionWrapper id="mental-health-checkup" className="bg-[#F8FAFC] relative overflow-hidden" pageNumber={5}>
+    <SectionWrapper id="mental-health-checkup" className="bg-[#F8FAFC] relative overflow-hidden" pageNumber={16}>
       {/* Decorative background elements */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-white/40 -z-10"></div>
 
