@@ -37,43 +37,38 @@ export const AutobiographicalMemory: React.FC = () => {
                         <div className="border border-gray-200 bg-white rounded-[24px] p-8 h-full flex flex-col">
                             <div className="flex items-center gap-3 mb-2">
                                 <span className="bg-[#333] text-white px-3 py-1 rounded-[8px] text-[16px] font-bold tracking-widest">문제</span>
-                                <h3 className="text-[#111] font-bold text-[20px] md:text-[22px] tracking-tight">자서전적 기억의 과일반화</h3>
+                                <h3 className="text-[#111] font-bold text-[20px] md:text-[22px] tracking-tight"> 노화에 따른 기억 구체성의 악순환</h3>
                             </div>
-                            <span className="text-[#111] font-bold text-[18px] mb-8">CaR-FAX 모델 (Williams) 기반</span>
 
                             <div className="flex flex-col gap-4">
                                 {/* Ca-R */}
                                 <div className="border border-gray-100 bg-[#FBFBFD] rounded-[16px] p-5">
                                     <div className="flex items-center gap-3 mb-3">
-                                        <div className="bg-[#1A1A1A] text-white text-[16px] font-bold px-2 py-0.5 rounded-[6px]">포착 및 반추</div>
-                                        <span className="text-[#111] medium text-[16px]">Capture and Rumination</span>
+                                        <div className="bg-[#1A1A1A] text-white text-[16px] font-bold px-2 py-0.5 rounded-[6px]">기억 밀도 감소</div>
                                     </div>
                                     <p className="text-[#666] text-[15px] font-medium leading-relaxed">
-                                        우울증·노화로 인해 부정적 자기 도식에 포착되기 쉬움 <br />
-                                        <i className="fa-solid fa-arrow-right text-gray-300 mx-1"></i> 만성적인 반추를 하게됨
+                                        일상이 반복적이고 새로운 경험이 줄어들며, 기억이 압축되는 경향<br />
+                                        <i className="fa-solid fa-arrow-right text-gray-300 mx-1"></i> 나이가 들수록 시간이 빨리 가는 것처럼 느껴짐
                                     </p>
                                 </div>
                                 {/* FA */}
                                 <div className="border border-gray-100 bg-[#FBFBFD] rounded-[16px] p-5">
                                     <div className="flex items-center gap-3 mb-3">
-                                        <div className="bg-[#1A1A1A] text-white text-[16px] font-bold px-2 py-0.5 rounded-[6px] tracking-widest">기능적 회피</div>
-                                        <span className="text-[#111] medium text-[16px]">Functional Avoidance</span>
+                                        <div className="bg-[#1A1A1A] text-white text-[16px] font-bold px-2 py-0.5 rounded-[6px] tracking-widest">전두엽 기능 약화</div>
                                     </div>
                                     <p className="text-[#666] text-[15px] font-medium leading-relaxed">
-                                        정서 조절 및 대처 전략으로<br />
-                                        고통스러운 구체적 기억을 무의식적으로 회피하며<br />
-                                        일반적인 기억만 떠올리게 됨
+                                        노화로 인한 전두엽 기능 저하<br />
+                                        <i className="fa-solid fa-arrow-right text-gray-300 mx-1"></i>일화기억(Episodic memory)기능 및 기억 탐색 기능 저하
                                     </p>
                                 </div>
                                 {/* X */}
                                 <div className="border border-gray-100 bg-[#FBFBFD] rounded-[16px] p-5">
                                     <div className="flex items-center gap-3 mb-3">
-                                        <div className="bg-[#1A1A1A] text-white text-[16px] font-bold px-2.5 py-0.5 rounded-[6px]">실행 기능 저하</div>
-                                        <span className="text-[#111] midium text-[16px]">eXecutive control dysfunction</span>
+                                        <div className="bg-[#1A1A1A] text-white text-[16px] font-bold px-2.5 py-0.5 rounded-[6px]">기억 감소 · 일반화 → 우울 악순환</div>
                                     </div>
                                     <p className="text-[#666] text-[15px] font-medium leading-relaxed">
-                                        우울증·노화로 목표 지향적 기억 탐색 기능 저하로, <br />
-                                        구체적인 회상이 어려워짐
+                                        기억 자체의 감소 + 기억의 일반화(구체성 저하)<br />
+                                        <i className="fa-solid fa-arrow-right text-gray-300 mx-1"></i> 우울 증상 악화 → 기억 구체성 추가 감소 악순환 고리 형성
                                     </p>
                                 </div>
                             </div>
