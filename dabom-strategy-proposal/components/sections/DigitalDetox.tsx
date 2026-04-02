@@ -8,7 +8,7 @@ export const DigitalDetox: React.FC = () => {
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center items-center">
                 <FadeIn>
                     <div className="mb-6 text-center">
-                        <span className="inline-block bg-red-50 text-red-500 font-bold px-4 py-1.5 rounded-full text-[15px] mb-4 border border-red-100">
+                        <span className="inline-block bg-red-50 text-red-500 font-bold px-4 py-1.5 rounded-full text-[16px] mb-4 border border-red-100">
                             <i className="fa-solid fa-triangle-exclamation mr-2"></i>
                             2024년 스마트폰 과의존 위험군 22.9% 기록
                         </span>
@@ -65,7 +65,7 @@ export const DigitalDetox: React.FC = () => {
                                             수면 중 디지털 디톡스를 시작할까요?
                                         </p>
                                         <div className="flex items-center justify-between bg-white p-3 rounded-2xl border border-gray-100 mb-4">
-                                            <span className="text-xs text-gray-500 font-medium ml-2 whitespace-nowrap">디지털 디톡스 모드</span>
+                                            <span className="text-[16px] text-gray-500 font-medium ml-2 whitespace-nowrap">디지털 디톡스 모드</span>
                                             <div className="w-12 h-6 bg-purple-900 rounded-full relative p-1 cursor-pointer">
                                                 <div className="w-4 h-4 bg-white rounded-full absolute right-1"></div>
                                             </div>
@@ -101,7 +101,7 @@ export const DigitalDetox: React.FC = () => {
                             </div>
 
                             <div className="text-center mt-3">
-                                <span className="text-[13px] text-gray-400 font-bold uppercase tracking-wider block mb-3">REWARD</span>
+                                <span className="text-[16px] text-gray-400 font-bold uppercase tracking-wider block mb-3">REWARD</span>
                                 <div className="bg-[#FFF9DB] text-[#8c6b1f] font-bold text-[16px] px-6 py-3 rounded-xl border border-[#FFE082] shadow-sm whitespace-nowrap">
                                     Deep Night Badge LP 획득
                                 </div>
@@ -119,7 +119,7 @@ export const DigitalDetox: React.FC = () => {
                                     <div className="absolute top-1/2 right-[-45%] -translate-y-1/2 w-[90%] h-[90%] rounded-full bg-gray-950 shadow-2xl flex items-center justify-center transition-transform duration-500 group-hover:translate-x-4 group-hover:rotate-[20deg] z-0">
                                         <div className="w-[98%] h-[98%] rounded-full border border-gray-800 opacity-60" style={{ background: 'repeating-radial-gradient(#0a0a0a 0, #0a0a0a 2px, #1a1a1a 3px, #1a1a1a 4px)' }}></div>
                                         <div className="absolute w-1/3 h-1/3 bg-yellow-400 rounded-full flex items-center justify-center shadow-inner">
-                                            <div className="text-[8px] font-bold text-black uppercase tracking-widest leading-tight text-center">DEEP<br />NIGHT</div>
+                                            <div className="text-[12px] font-bold text-black uppercase tracking-widest leading-tight text-center">DEEP<br />NIGHT</div>
                                         </div>
                                     </div>
 
@@ -130,7 +130,7 @@ export const DigitalDetox: React.FC = () => {
 
                                         {/* Limited Banner */}
                                         <div className="absolute top-6 -right-12 bg-yellow-400 w-40 py-1 text-center rotate-45 z-30 shadow-md">
-                                            <span className="text-[10px] font-bold text-black uppercase tracking-widest">DEEP NIGHT</span>
+                                            <span className="text-[16px] font-bold text-black uppercase tracking-widest">DEEP NIGHT</span>
                                         </div>
 
                                         {/* Abstract Art: Night Sky */}
@@ -169,14 +169,14 @@ export const DigitalDetox: React.FC = () => {
 
                                 <div className="text-center mt-6">
                                     <h4 className="text-2xl font-bold text-gray-900 mb-2">Deep Sleep Nocturne</h4>
-                                    <p className="text-gray-500 text-[15px] mb-6">
+                                    <p className="text-gray-500 text-[16px] mb-6">
                                         세상의 연결을 끄고 나서야 비로소 시작되는,<br />
                                         가장 고요한 나만의 선율.
                                     </p>
 
                                     <div className="inline-block bg-gray-50 rounded-xl px-8 py-4 border border-gray-100">
-                                        <div className="text-[13px] text-gray-400 tracking-widest font-bold uppercase mb-3 border-b border-gray-200 pb-1">Track List</div>
-                                        <ol className="text-[15px] text-gray-700 space-y-2 font-medium font-serif text-left">
+                                        <div className="text-[16px] text-gray-400 tracking-widest font-bold uppercase mb-3 border-b border-gray-200 pb-1">Track List</div>
+                                        <ol className="text-[16px] text-gray-700 space-y-2 font-medium font-serif text-left">
                                             <li><span className="text-yellow-600 mr-2">1.</span> Moonlight Serenade</li>
                                             <li><span className="text-yellow-600 mr-2">2.</span> Digital Silence</li>
                                             <li><span className="text-yellow-600 mr-2">3.</span> Midnight Dream</li>

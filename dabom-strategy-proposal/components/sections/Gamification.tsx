@@ -115,13 +115,23 @@ export const Gamification: React.FC = () => {
                                             </div>
                                         </div>
                                         {/* Feature 2 */}
-                                        <div className="bg-white rounded-2xl p-3 border border-orange-50 shadow-sm flex items-center gap-4">
-                                            <div className="w-12 h-12 rounded-xl bg-red-50 text-red-500 flex items-center justify-center text-xl shrink-0">
-                                                <i className="fa-solid fa-bell"></i>
+                                        <div className="bg-white rounded-2xl p-3 border border-orange-50 shadow-sm flex flex-col gap-4">
+                                            <div className="flex items-center gap-4">
+                                                <div className="w-12 h-12 rounded-xl bg-red-50 text-red-500 flex items-center justify-center text-xl shrink-0">
+                                                    <i className="fa-solid fa-bell"></i>
+                                                </div>
+                                                <div>
+                                                    <h4 className="font-black text-[18px] text-kb-black">리마인드 푸시 알림</h4>
+                                                    <p className="text-gray-500 text-[15px] font-medium">오늘의 이미지 PUSH 알림으로<br />앱 재진입 유도</p>
+                                                </div>
                                             </div>
-                                            <div>
-                                                <h4 className="font-black text-[18px] text-kb-black">리마인드 푸시 알림</h4>
-                                                <p className="text-gray-500 text-[15px] font-medium">오늘의 이미지 PUSH 알림으로<br />앱 재진입 유도</p>
+                                            {/* Push Notification Image Inserted Here - Clean Bubble Only (As Provided) */}
+                                            <div className="mt-0.5 self-center max-w-[500px] transition-transform hover:scale-[1.05] duration-300">
+                                                <img 
+                                                    src="/images/gamification/push_noti_final.png" 
+                                                    alt="리마인드 푸시 알림" 
+                                                    className="w-full h-auto"
+                                                />
                                             </div>
                                         </div>
                                         {/* Feature 3 */}
@@ -143,10 +153,10 @@ export const Gamification: React.FC = () => {
                                         style={{ borderRadius: '27px' }}
                                     >
                                         <img 
-                                            src="/images/gamification/photo-album-proto.png" 
+                                            src="/images/gamification/photo-album-detail.png" 
                                             className="h-full w-auto object-contain" 
-                                            style={{ borderRadius: '25px' }} // Slightly less than container to match inside
-                                            alt="사진첩 프로토타입" 
+                                            style={{ borderRadius: '25px' }} // Slightly less than container
+                                            alt="사진첩 상세 화면" 
                                         />
                                     </div>
                                 </div>

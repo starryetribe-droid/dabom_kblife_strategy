@@ -15,14 +15,16 @@ export const Hero: React.FC = () => {
         <FadeIn>
           <div className="inline-flex items-center gap-3 px-6 py-2.5 rounded-full bg-white/80 backdrop-blur-md shadow-sm border border-white text-kb-gray text-[15px] font-bold mb-6 ring-1 ring-yellow-50/50">
             <span className="w-2.5 h-2.5 rounded-full bg-kb-yellow animate-pulse"></span>
-            이트라이브 X 고려대 마음건강연구소
+            KB라이프생명 X 고려대 마음건강연구소 X 이트라이브
           </div>
-          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-8 text-kb-black tracking-tight drop-shadow-sm">
-            시니어 멘탈·헬스케어 통합 관리<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F9BB00] to-[#8B7448]">KB라이프 X 다봄</span>
+          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 text-kb-black tracking-tight drop-shadow-sm">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F9BB00] to-[#8B7448]">KB골든라이프에 마음을 더하다</span>
           </h1>
+          <p className="text-2xl md:text-3xl text-gray-600 font-bold mb-10 tracking-tight">
+            시니어 맞춤형 AI 마음건강 서비스 '다봄'
+          </p>
           <p className="text-xl md:text-2xl text-kb-gray max-w-3xl mx-auto leading-relaxed mb-6 font-medium break-keep">
-            2026. 01. 06.
+            2026. 04. 02.
           </p>
         </FadeIn>
       </div>

@@ -5,7 +5,7 @@ import { SectionWrapper } from './SectionWrapper';
 
 export const CoreService: React.FC = () => {
   return (
-    <SectionWrapper id="core-service" className="bg-white" pageNumber={23}>
+    <SectionWrapper id="core-service" className="bg-white" pageNumber={18}>
       <div className="max-w-7xl mx-auto px-6 w-full">
         {/* Section Header */}
         <div className="text-center mb-8">
@@ -110,8 +110,8 @@ export const CoreService: React.FC = () => {
                   <div className="flex flex-col gap-1 max-w-[80%]">
                     <span className="text-[13px] text-gray-500 ml-1 font-medium">AI 다봄</span>
                     <div className="bg-white p-3.5 rounded-2xl rounded-tl-none shadow-sm text-[16px] text-gray-800 leading-relaxed border border-gray-100">
-                      좋은 아침이에요, 삼성님! ☀️<br />
-                      <span className="text-kb-yellow font-bold">3일동안 수면 패턴이 불규칙하시네요.</span> 몸은 좀 어떠세요?
+                      좋은 아침이에요, 늘봄님! ☀️<br />
+                      <span className="text-kb-yellow font-bold">일주일 전 마음상태를 살펴보니 '중등도' 상태네요.</span><br />마음은 좀 어떠세요?
                     </div>
                   </div>
                 </div>
@@ -120,7 +120,7 @@ export const CoreService: React.FC = () => {
                 <div className="flex flex-row-reverse gap-3">
                   <div className="flex flex-col gap-1 max-w-[80%] items-end">
                     <div className="bg-kb-yellow p-3.5 rounded-2xl rounded-tr-none shadow-sm text-[16px] text-white leading-relaxed">
-                      응, 중간에 자꾸 깨서 그런지<br />몸이 좀 찌뿌둥하네.. 😞
+                      저번하고 달라진 건<br />많이 없는 것 같아
                     </div>
                   </div>
                 </div>
@@ -133,14 +133,13 @@ export const CoreService: React.FC = () => {
                   <div className="flex flex-col gap-1 max-w-[85%]">
                     <span className="text-[13px] text-gray-500 ml-1 font-medium">AI 다봄</span>
                     <div className="bg-white p-3.5 rounded-2xl rounded-tl-none shadow-sm text-[16px] text-gray-800 leading-relaxed border border-gray-100">
-                      저런, 피곤하시겠어요.<br />
-                      찌뿌둥한 몸을 깨우는 <strong>가벼운 스트레칭</strong>을 함께 해볼까요?<br />
-                      기분 전환에도 도움이 될 거예요! 💪
+                      에고, 마음이 좀 불편하시겠어요.<br />
+                      <strong>우울감 완화</strong>에 도움이 되는<strong><br />기억 찾기 활동</strong>을 해보실래요?<br />
                     </div>
                     {/* Action Button */}
                     <div className="mt-1 flex gap-2">
                       <button className="bg-white border border-kb-yellow text-kb-yellow text-[16px] font-bold px-4 py-2 rounded-full shadow-sm hover:bg-yellow-50 transition">
-                        스트레칭 영상 보기
+                        다봄이와 기억 찾으러 가기
                       </button>
                     </div>
                   </div>
@@ -173,8 +172,8 @@ export const CoreService: React.FC = () => {
               </div>
             </div>
           </FadeIn>
-        </div>
-      </div>
-    </SectionWrapper>
+        </div >
+      </div >
+    </SectionWrapper >
   );
 };

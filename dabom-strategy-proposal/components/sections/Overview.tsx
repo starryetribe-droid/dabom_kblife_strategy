@@ -7,39 +7,39 @@ export const Overview: React.FC = () => {
     const parts = [
         {
             part: "Part 1",
-            title: "핵심 기능 소개",
-            desc: "전문가가 설계한\n멘탈 케어 솔루션",
-            icon: "fa-user-doctor",
+            title: "브랜드 스토리 및\n 서비스 개요",
+            desc: "다봄이 지향하는 가치와\n서비스 구성을 소개합니다.",
+            icon: "fa-book-open",
             color: "text-yellow-600",
             bg: "bg-yellow-50",
-            id: "interim-1"
+            id: "interim-overview"
         },
         {
             part: "Part 2",
-            title: "핵심 전략",
-            desc: "데이터 기반의\n능동적 개입",
-            icon: "fa-chess-knight",
+            title: "과학·전문적\n멘탈 케어",
+            desc: "임상과 특허·논문 기반의\n신뢰할 수 있는 멘탈케어입니다.",
+            icon: "fa-user-doctor",
             color: "text-amber-500",
-            bg: "bg-indigo-50",
-            id: "interim-2"
+            bg: "bg-amber-50",
+            id: "interim-1"
         },
         {
             part: "Part 3",
-            title: "B2B 확장",
-            desc: "전 임직원을 위한\n보편적 웰니스",
-            icon: "fa-building",
-            color: "text-purple-500",
-            bg: "bg-purple-50",
-            id: "interim-3"
+            title: "과학적 원리 및\n상세 기능",
+            desc: "핵심 기능의 과학적 원리와\n상세한 구성을 소개합니다.",
+            icon: "fa-microscope",
+            color: "text-blue-500",
+            bg: "bg-blue-50",
+            id: "interim-service-details"
         },
         {
             part: "Part 4",
-            title: "전 연령대 확장",
-            desc: "몰입을 만드는\n즐거운 경험 설계",
-            icon: "fa-gamepad",
-            color: "text-pink-500",
-            bg: "bg-pink-50",
-            id: "interim-4"
+            title: "KB골든라이프와\n다봄의 만남",
+            desc: "다봄이 가져다주는\n세 가지 가치를 제안합니다.",
+            icon: "fa-handshake",
+            color: "text-purple-500",
+            bg: "bg-purple-50",
+            id: "interim-3"
         }
     ];
 
@@ -51,11 +51,11 @@ export const Overview: React.FC = () => {
     };
 
     return (
-        <SectionWrapper id="overview" className="bg-[#545045]" pageNumber={2}>
+        <SectionWrapper id="overview" className="bg-[#545045]" pageNumber={1}>
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center">
                 <div className="text-center mb-8">
                     <FadeIn>
-                        <h2 className="apple-title text-kb-black ">
+                        <h2 className="apple-title text-kb-yellow ">
                             Overview
                         </h2>
                     </FadeIn>
@@ -73,7 +73,7 @@ export const Overview: React.FC = () => {
 
                                 <div className="mt-4">
                                     <span className="text-[16px] font-bold text-gray-400 mb-2 uppercase tracking-wider block">{item.part}</span>
-                                    <h3 className="apple-subtitle text-[#1d1d1f] mb-4 group-hover: transition-colors">
+                                    <h3 className="apple-subtitle text-[#1d1d1f] mb-4 group-hover: transition-colors whitespace-pre-line">
                                         {item.title}
                                     </h3>
 

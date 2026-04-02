@@ -132,10 +132,7 @@ export const ExpertiseProfessors: React.FC = () => {
                 </div>
             </div>
 
-            {/* Page Number mimicking the reference */}
-            <div className="absolute bottom-0 right-6 text-lg font-bold text-gray-400 opacity-60 z-20">
-                11
-            </div>
+
 
         </SectionWrapper>
     );

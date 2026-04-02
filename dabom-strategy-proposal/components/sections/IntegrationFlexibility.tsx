@@ -14,7 +14,7 @@ export const IntegrationFlexibility: React.FC = () => {
     const lightBgGray = "#F1F3F5";
 
     return (
-        <SectionWrapper id="integration-flexibility" className="bg-white relative overflow-hidden" pageNumber={22}>
+        <SectionWrapper id="integration-flexibility" className="bg-white relative overflow-hidden" pageNumber={35}>
             <div className="max-w-[1640px] mx-auto px-10 w-full h-full flex flex-col justify-start pt-12 relative z-10">
                 {/* Section Header */}
                 <div className="text-center mb-12">
@@ -26,7 +26,7 @@ export const IntegrationFlexibility: React.FC = () => {
                             파트너사 연동 환경 및 도입 방식의 <span className="text-kb-black">유연성</span>
                         </h2>
                         <p className="text-[#666] font-medium text-[18px] md:text-[20px] tracking-tight">
-                            SSO 연동부터 모듈형 도입, 그리고 데이터 솔루션까지
+                            SSO 연동부터 모듈형 API, 그리고 데이터 자산화까지
                         </p>
                     </FadeIn>
                 </div>
@@ -36,7 +36,12 @@ export const IntegrationFlexibility: React.FC = () => {
 
                     {/* Column 1: SSO */}
                     <FadeIn delay={100}>
-                        <GlassCard className="p-8 h-full bg-white border border-gray-200 rounded-[2rem] flex flex-col">
+                        <GlassCard className="p-8 h-full bg-white border border-gray-200 rounded-[2rem] flex flex-col relative overflow-hidden">
+                            <div className="mb-4">
+                                <span className="bg-[#FFF8E7] text-[#E65D25] px-3 py-1 rounded-full text-[12px] font-black tracking-tight border border-orange-100">
+                                    도입 방식 1
+                                </span>
+                            </div>
                             <h3 className="text-[24px] font-black text-kb-black leading-tight mb-8">
                                 회원가입 없는<br />즉시 실행 (SSO)
                             </h3>
@@ -97,9 +102,14 @@ export const IntegrationFlexibility: React.FC = () => {
 
                     {/* Column 2: Modular */}
                     <FadeIn delay={200}>
-                        <GlassCard className="p-8 h-full bg-white border border-gray-200 rounded-[2rem] flex flex-col">
+                        <GlassCard className="p-8 h-full bg-white border border-gray-200 rounded-[2rem] flex flex-col relative overflow-hidden">
+                            <div className="mb-4">
+                                <span className="bg-[#FFF8E7] text-[#E65D25] px-3 py-1 rounded-full text-[12px] font-black tracking-tight border border-orange-100">
+                                    도입 방식 2
+                                </span>
+                            </div>
                             <h3 className="text-[24px] font-black text-kb-black leading-tight mb-8">
-                                필요한 기능만 골라 쓰는<br />모듈형 도입
+                                필요한 기능만 골라 쓰는<br />모듈형 API 도입
                             </h3>
 
                             {/* Modular List Box */}
@@ -144,9 +154,14 @@ export const IntegrationFlexibility: React.FC = () => {
 
                     {/* Column 3: Data */}
                     <FadeIn delay={300}>
-                        <GlassCard className="p-8 h-full bg-white border border-gray-200 rounded-[2rem] flex flex-col">
+                        <GlassCard className="p-8 h-full bg-white border border-gray-200 rounded-[2rem] flex flex-col relative overflow-hidden">
+                            <div className="mb-4">
+                                <span className="bg-[#FFF8E7] text-[#E65D25] px-3 py-1 rounded-full text-[12px] font-black tracking-tight border border-orange-100">
+                                    비즈니스 시너지
+                                </span>
+                            </div>
                             <h3 className="text-[24px] font-black text-kb-black leading-tight mb-8">
-                                활동 데이터<br />실시간 자산화
+                                활동 데이터<br />자산화
                             </h3>
 
                             {/* Data Diagram Box */}
@@ -158,7 +173,7 @@ export const IntegrationFlexibility: React.FC = () => {
                                     >
                                         <i className="fa-solid fa-heart-pulse text-white text-[36px]"></i>
                                     </div>
-                                    <span className="text-[13px] font-black text-gray-700">다봄 Data</span>
+                                    <span className="text-[13px] font-black text-gray-700">다봄 DB</span>
                                 </div>
 
                                 <div className="flex-1 flex flex-col items-center relative z-10">
@@ -167,7 +182,7 @@ export const IntegrationFlexibility: React.FC = () => {
                                             <i className="fa-solid fa-arrow-right text-[#E65D25] text-2xl"></i>
                                         </div>
                                     </div>
-                                    <span className="text-[#E65D25] text-[12px] font-black mt-8 bg-white px-3 py-1 rounded-full border border-gray-100 shadow-sm">실시간 전송</span>
+                                    <span className="text-[#E65D25] text-[12px] font-black mt-8 bg-white px-3 py-1 rounded-full border border-gray-100 shadow-sm">Data 전송</span>
                                 </div>
 
                                 <div className="flex flex-col items-center gap-4 z-10">

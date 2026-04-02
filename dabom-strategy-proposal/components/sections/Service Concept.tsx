@@ -105,7 +105,7 @@ export const ServiceConcept: React.FC = () => {
                   <div className="flex flex-col gap-1 max-w-[80%]">
                     <span className="text-[10px] text-gray-500 ml-1">AI 다봄</span>
                     <div className="bg-white p-3.5 rounded-2xl rounded-tl-none shadow-sm text-sm text-gray-800 leading-relaxed border border-gray-100">
-                      좋은 아침이에요, 김삼성님! ☀️<br />
+                      좋은 아침이에요, 늘봄님! ☀️<br />
                       어젯밤에는 <span className="text-kb-yellow font-bold">수면 시간이 평소보다 2시간 적으셨네요.</span> 몸은 좀 어떠세요?
                     </div>
                   </div>

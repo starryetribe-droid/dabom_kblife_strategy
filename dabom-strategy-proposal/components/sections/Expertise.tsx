@@ -29,10 +29,10 @@ export const Expertise: React.FC = () => {
                 </div>
 
                 {/* Content Grid */}
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12">
+                <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-12">
 
                     {/* Papers Section (Left) */}
-                    <div className="lg:col-span-3">
+                    <div className="lg:col-span-1">
                         <FadeIn delay={100}>
                             <h3 className="apple-subtitle text-[#1d1d1f] mb-8 border-t border-gray-200 pt-4">논문</h3>
 
@@ -48,7 +48,7 @@ export const Expertise: React.FC = () => {
                                     자서전적 기억 훈련의 효과
                                 </h4>
 
-                                <div className="w-full max-w-[240px] aspect-[3/4] bg-white shadow-lg rounded-sm overflow-hidden border border-gray-100 relative group cursor-pointer">
+                                <div className="w-full aspect-[3/4] bg-white shadow-lg rounded-sm overflow-hidden border border-gray-100 relative group cursor-pointer">
                                     <img
                                         src={exp1}
                                         alt="Paper Abstract"
@@ -60,7 +60,7 @@ export const Expertise: React.FC = () => {
                     </div>
 
                     {/* Patents Section (Right) */}
-                    <div className="lg:col-span-9">
+                    <div className="lg:col-span-4">
                         <FadeIn delay={200}>
                             <h3 className="apple-subtitle text-[#1d1d1f] mb-8 border-t border-gray-200 pt-4">특허</h3>
 

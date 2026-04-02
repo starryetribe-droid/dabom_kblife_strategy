@@ -46,7 +46,7 @@ const TypingLine = ({ text, delay = 0, className = "", highlight = false }: { te
 
 const BrandStory: React.FC = () => {
     return (
-        <SectionWrapper id="brand-story" className="bg-transparent">
+        <SectionWrapper id="brand-story" className="bg-transparent" pageNumber={3}>
             <div className="relative overflow-hidden flex flex-col justify-center items-center w-full h-full">
 
                 {/* Background Atmosphere */}

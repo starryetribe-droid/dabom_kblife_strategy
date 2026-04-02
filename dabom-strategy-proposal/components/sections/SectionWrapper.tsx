@@ -8,7 +8,7 @@ interface SectionWrapperProps {
   pageNumber?: number;
 }
 
-export const SectionWrapper: React.FC<SectionWrapperProps> = ({ id, children, className = '', hidePageNumber = false }) => {
+export const SectionWrapper: React.FC<SectionWrapperProps> = ({ id, children, className = '', hidePageNumber = false, pageNumber }) => {
   const [scale, setScale] = useState(1);
 
   useEffect(() => {
